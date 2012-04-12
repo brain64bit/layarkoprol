@@ -1,0 +1,16 @@
+
+/*---------------------------------------------------------------
+Internet Explorer 7 only rule sets ----------------------------*/
+
+.highlight span img {
+	padding: 10px 0;
+}
+
+#call_to_action {
+	margin: -70px 0 0 0 !important;
+}
+
+#contact li span {
+	float: left;
+	padding: 8px 0 0 0;
+}

@@ -1,0 +1,1222 @@
+/////////////////////////////
+["places",[{"place":{"address":"Jl. Matraman Raya No. 46-50","city":"Jakarta","name":"Gramedia","parent_name":"Jakarta","dislikes":4,"id":5716,"lng":106.85642736251,"phone2":"","parent_id":1420,"phone":"+62-21-8581763","lat":-6.2027461336294,"place_type":"Shops","web":"www.gramediaonline.com","likes":193,"distance":"1.48"}},{"place":{"address":"","city":"Jakarta","name":"Setiabudi","parent_name":"Jakarta","dislikes":2,"id":1418,"lng":106.833000183105,"phone2":null,"parent_id":2,"phone":"","lat":-6.20800018310547,"place_type":"Area","web":"","likes":69,"distance":"1.4"}},{"place":{"address":"Jl. Pegangsaan No. 21, Cikini","city":"Jakarta","name":"XXI Metropole","parent_name":"Jakarta","dislikes":3,"id":7281,"lng":106.843092441559,"phone2":null,"parent_id":79,"phone":"+62-21- 31922249","lat":-6.19996820227451,"place_type":"Arts & Entertainment","web":"www.21cineplex.com","likes":67,"distance":"1.19"}},{"place":{"address":"Jl. Matraman","city":"Jakarta","name":"7 Eleven","parent_name":"Jakarta","dislikes":9,"id":10181,"lng":106.853778362274,"phone2":"","parent_id":1420,"phone":"","lat":-6.20011752742032,"place_type":"Shops","web":"","likes":57,"distance":"1.47"}},{"place":{"address":"12960, Setiabudi","city":"Jakarta","name":"Menteng Atas","parent_name":"Jakarta","dislikes":1,"id":1648,"lng":106.833000183105,"phone2":null,"parent_id":1418,"phone":"","lat":-6.20800018310547,"place_type":"Area","web":"","likes":43,"distance":"1.4"}},{"place":{"address":"Lt. Ground, Epicentrum Walk","city":"Jakarta","name":"Epicentrum XXI","parent_name":"Jakarta","dislikes":0,"id":10202,"lng":106.835067272186,"phone2":"","parent_id":9323,"phone":"+62-21-29941300","lat":-6.21856952328844,"place_type":"Arts & Entertainment","web":"http://www.21cineplex.com","likes":41,"distance":"1.47"}},{"place":{"address":" Tebet","city":"Jakarta","name":"Manggarai","parent_name":"Jakarta","dislikes":1,"id":1546,"lng":106.858352661133,"phone2":null,"parent_id":1449,"phone":"","lat":-6.21325778961182,"place_type":"Area","web":"","likes":29,"distance":"1.47"}},{"place":{"address":"Jalan HR. Rasuna Said, Setiabudi","city":"Jakarta","name":"Apartemen Taman Rasuna","parent_name":"Jakarta","dislikes":0,"id":1890,"lng":106.836204528809,"phone2":null,"parent_id":1418,"phone":"","lat":-6.21972141834104,"place_type":"Residence","web":"","likes":22,"distance":"1.46"}},{"place":{"address":"Jl. Pinangsia Raya 1, Glodok Plaza Lt 3","city":"Jakarta","name":"Golden Crown","parent_name":"Jakarta","dislikes":1,"id":240,"lng":106.845001220703,"phone2":null,"parent_id":239,"phone":"","lat":-6.21154022216797,"place_type":"Arts & Entertainment","web":"","likes":20,"distance":"0.14"}},{"place":{"address":"Jalan Menteng Pulo 1, Menteng Dalam","city":"Jakarta","name":"Pasar Menteng Pulo","parent_name":"Jakarta","dislikes":0,"id":169679,"lng":106.844907983871,"phone2":"","parent_id":2,"phone":"","lat":-6.2225075,"place_type":"Shops","web":"","likes":18,"distance":"1.36"}}]]
+//////////////////////////////
+/////////////////////////////
+/////////////////////////////
+["places",[{"place":{"address":"Jl. Matraman Raya No. 46-50","city":"Jakarta","name":"Gramedia","parent_name":"Jakarta","dislikes":4,"id":5716,"lng":106.85642736251,"phone2":"","parent_id":1420,"phone":"+62-21-8581763","lat":-6.2027461336294,"place_type":"Shops","web":"www.gramediaonline.com","likes":193,"distance":"1.48"}},{"place":{"address":"","city":"Jakarta","name":"Setiabudi","parent_name":"Jakarta","dislikes":2,"id":1418,"lng":106.833000183105,"phone2":null,"parent_id":2,"phone":"","lat":-6.20800018310547,"place_type":"Area","web":"","likes":69,"distance":"1.4"}},{"place":{"address":"Jl. Pegangsaan No. 21, Cikini","city":"Jakarta","name":"XXI Metropole","parent_name":"Jakarta","dislikes":3,"id":7281,"lng":106.843092441559,"phone2":null,"parent_id":79,"phone":"+62-21- 31922249","lat":-6.19996820227451,"place_type":"Arts & Entertainment","web":"www.21cineplex.com","likes":67,"distance":"1.19"}},{"place":{"address":"Jl. Matraman","city":"Jakarta","name":"7 Eleven","parent_name":"Jakarta","dislikes":9,"id":10181,"lng":106.853778362274,"phone2":"","parent_id":1420,"phone":"","lat":-6.20011752742032,"place_type":"Shops","web":"","likes":57,"distance":"1.47"}},{"place":{"address":"12960, Setiabudi","city":"Jakarta","name":"Menteng Atas","parent_name":"Jakarta","dislikes":1,"id":1648,"lng":106.833000183105,"phone2":null,"parent_id":1418,"phone":"","lat":-6.20800018310547,"place_type":"Area","web":"","likes":43,"distance":"1.4"}},{"place":{"address":"Lt. Ground, Epicentrum Walk","city":"Jakarta","name":"Epicentrum XXI","parent_name":"Jakarta","dislikes":0,"id":10202,"lng":106.835067272186,"phone2":"","parent_id":9323,"phone":"+62-21-29941300","lat":-6.21856952328844,"place_type":"Arts & Entertainment","web":"http://www.21cineplex.com","likes":41,"distance":"1.47"}},{"place":{"address":" Tebet","city":"Jakarta","name":"Manggarai","parent_name":"Jakarta","dislikes":1,"id":1546,"lng":106.858352661133,"phone2":null,"parent_id":1449,"phone":"","lat":-6.21325778961182,"place_type":"Area","web":"","likes":29,"distance":"1.47"}},{"place":{"address":"Jalan HR. Rasuna Said, Setiabudi","city":"Jakarta","name":"Apartemen Taman Rasuna","parent_name":"Jakarta","dislikes":0,"id":1890,"lng":106.836204528809,"phone2":null,"parent_id":1418,"phone":"","lat":-6.21972141834104,"place_type":"Residence","web":"","likes":22,"distance":"1.46"}},{"place":{"address":"Jl. Pinangsia Raya 1, Glodok Plaza Lt 3","city":"Jakarta","name":"Golden Crown","parent_name":"Jakarta","dislikes":1,"id":240,"lng":106.845001220703,"phone2":null,"parent_id":239,"phone":"","lat":-6.21154022216797,"place_type":"Arts & Entertainment","web":"","likes":20,"distance":"0.14"}},{"place":{"address":"Jalan Menteng Pulo 1, Menteng Dalam","city":"Jakarta","name":"Pasar Menteng Pulo","parent_name":"Jakarta","dislikes":0,"id":169679,"lng":106.844907983871,"phone2":"","parent_id":2,"phone":"","lat":-6.2225075,"place_type":"Shops","web":"","likes":18,"distance":"1.36"}}]]
+//////////////////////////////
+/////////////////////////////
+/////////////////////////////
+/////////////////////////////
+/////////////////////////////
+[
+  "places",
+  [
+    {
+      "place": {
+        "address": "Jl. Matraman Raya No. 46-50",
+        "city": "Jakarta",
+        "name": "Gramedia",
+        "parent_name": "Jakarta",
+        "dislikes": 4,
+        "id": 5716,
+        "lng": 106.85642736251,
+        "phone2": "",
+        "parent_id": 1420,
+        "phone": "+62-21-8581763",
+        "lat": -6.2027461336294,
+        "place_type": "Shops",
+        "web": "www.gramediaonline.com",
+        "likes": 193,
+        "distance": "1.48"
+      }
+    },
+    {
+      "place": {
+        "address": "",
+        "city": "Jakarta",
+        "name": "Setiabudi",
+        "parent_name": "Jakarta",
+        "dislikes": 2,
+        "id": 1418,
+        "lng": 106.833000183105,
+        "phone2": null,
+        "parent_id": 2,
+        "phone": "",
+        "lat": -6.20800018310547,
+        "place_type": "Area",
+        "web": "",
+        "likes": 69,
+        "distance": "1.40"
+      }
+    },
+    {
+      "place": {
+        "address": "Jl. Pegangsaan No. 21, Cikini",
+        "city": "Jakarta",
+        "name": "XXI Metropole",
+        "parent_name": "Jakarta",
+        "dislikes": 3,
+        "id": 7281,
+        "lng": 106.843092441559,
+        "phone2": null,
+        "parent_id": 79,
+        "phone": "+62-21- 31922249",
+        "lat": -6.19996820227451,
+        "place_type": "Arts & Entertainment",
+        "web": "www.21cineplex.com",
+        "likes": 67,
+        "distance": "1.19"
+      }
+    },
+    {
+      "place": {
+        "address": "Jl. Matraman",
+        "city": "Jakarta",
+        "name": "7 Eleven",
+        "parent_name": "Jakarta",
+        "dislikes": 9,
+        "id": 10181,
+        "lng": 106.853778362274,
+        "phone2": "",
+        "parent_id": 1420,
+        "phone": "",
+        "lat": -6.20011752742032,
+        "place_type": "Shops",
+        "web": "",
+        "likes": 57,
+        "distance": "1.47"
+      }
+    },
+    {
+      "place": {
+        "address": "12960, Setiabudi",
+        "city": "Jakarta",
+        "name": "Menteng Atas",
+        "parent_name": "Jakarta",
+        "dislikes": 1,
+        "id": 1648,
+        "lng": 106.833000183105,
+        "phone2": null,
+        "parent_id": 1418,
+        "phone": "",
+        "lat": -6.20800018310547,
+        "place_type": "Area",
+        "web": "",
+        "likes": 43,
+        "distance": "1.40"
+      }
+    },
+    {
+      "place": {
+        "address": "Lt. Ground, Epicentrum Walk",
+        "city": "Jakarta",
+        "name": "Epicentrum XXI",
+        "parent_name": "Jakarta",
+        "dislikes": 0,
+        "id": 10202,
+        "lng": 106.835067272186,
+        "phone2": "",
+        "parent_id": 9323,
+        "phone": "+62-21-29941300",
+        "lat": -6.21856952328844,
+        "place_type": "Arts & Entertainment",
+        "web": "http://www.21cineplex.com",
+        "likes": 41,
+        "distance": "1.47"
+      }
+    },
+    {
+      "place": {
+        "address": " Tebet",
+        "city": "Jakarta",
+        "name": "Manggarai",
+        "parent_name": "Jakarta",
+        "dislikes": 1,
+        "id": 1546,
+        "lng": 106.858352661133,
+        "phone2": null,
+        "parent_id": 1449,
+        "phone": "",
+        "lat": -6.21325778961182,
+        "place_type": "Area",
+        "web": "",
+        "likes": 29,
+        "distance": "1.47"
+      }
+    },
+    {
+      "place": {
+        "address": "Jalan HR. Rasuna Said, Setiabudi",
+        "city": "Jakarta",
+        "name": "Apartemen Taman Rasuna",
+        "parent_name": "Jakarta",
+        "dislikes": 0,
+        "id": 1890,
+        "lng": 106.836204528809,
+        "phone2": null,
+        "parent_id": 1418,
+        "phone": "",
+        "lat": -6.21972141834104,
+        "place_type": "Residence",
+        "web": "",
+        "likes": 22,
+        "distance": "1.46"
+      }
+    },
+    {
+      "place": {
+        "address": "Jl. Pinangsia Raya 1, Glodok Plaza Lt 3",
+        "city": "Jakarta",
+        "name": "Golden Crown",
+        "parent_name": "Jakarta",
+        "dislikes": 1,
+        "id": 240,
+        "lng": 106.845001220703,
+        "phone2": null,
+        "parent_id": 239,
+        "phone": "",
+        "lat": -6.21154022216797,
+        "place_type": "Arts & Entertainment",
+        "web": "",
+        "likes": 20,
+        "distance": "0.14"
+      }
+    },
+    {
+      "place": {
+        "address": "Jalan Menteng Pulo 1, Menteng Dalam",
+        "city": "Jakarta",
+        "name": "Pasar Menteng Pulo",
+        "parent_name": "Jakarta",
+        "dislikes": 0,
+        "id": 169679,
+        "lng": 106.844907983871,
+        "phone2": "",
+        "parent_id": 2,
+        "phone": "",
+        "lat": -6.2225075,
+        "place_type": "Shops",
+        "web": "",
+        "likes": 18,
+        "distance": "1.36"
+      }
+    }
+  ]
+]
+//////////////////////////////
+0  /////////////////////////////
+[
+  "places",
+  [
+    {
+      "place": {
+        "address": "Jl. Matraman Raya No. 46-50",
+        "city": "Jakarta",
+        "name": "Gramedia",
+        "parent_name": "Jakarta",
+        "dislikes": 4,
+        "id": 5716,
+        "lng": 106.85642736251,
+        "phone2": "",
+        "parent_id": 1420,
+        "phone": "+62-21-8581763",
+        "lat": -6.2027461336294,
+        "place_type": "Shops",
+        "web": "www.gramediaonline.com",
+        "likes": 193,
+        "distance": "1.48"
+      }
+    },
+    {
+      "place": {
+        "address": "",
+        "city": "Jakarta",
+        "name": "Setiabudi",
+        "parent_name": "Jakarta",
+        "dislikes": 2,
+        "id": 1418,
+        "lng": 106.833000183105,
+        "phone2": null,
+        "parent_id": 2,
+        "phone": "",
+        "lat": -6.20800018310547,
+        "place_type": "Area",
+        "web": "",
+        "likes": 69,
+        "distance": "1.40"
+      }
+    },
+    {
+      "place": {
+        "address": "Jl. Pegangsaan No. 21, Cikini",
+        "city": "Jakarta",
+        "name": "XXI Metropole",
+        "parent_name": "Jakarta",
+        "dislikes": 3,
+        "id": 7281,
+        "lng": 106.843092441559,
+        "phone2": null,
+        "parent_id": 79,
+        "phone": "+62-21- 31922249",
+        "lat": -6.19996820227451,
+        "place_type": "Arts & Entertainment",
+        "web": "www.21cineplex.com",
+        "likes": 67,
+        "distance": "1.19"
+      }
+    },
+    {
+      "place": {
+        "address": "Jl. Matraman",
+        "city": "Jakarta",
+        "name": "7 Eleven",
+        "parent_name": "Jakarta",
+        "dislikes": 9,
+        "id": 10181,
+        "lng": 106.853778362274,
+        "phone2": "",
+        "parent_id": 1420,
+        "phone": "",
+        "lat": -6.20011752742032,
+        "place_type": "Shops",
+        "web": "",
+        "likes": 57,
+        "distance": "1.47"
+      }
+    },
+    {
+      "place": {
+        "address": "12960, Setiabudi",
+        "city": "Jakarta",
+        "name": "Menteng Atas",
+        "parent_name": "Jakarta",
+        "dislikes": 1,
+        "id": 1648,
+        "lng": 106.833000183105,
+        "phone2": null,
+        "parent_id": 1418,
+        "phone": "",
+        "lat": -6.20800018310547,
+        "place_type": "Area",
+        "web": "",
+        "likes": 43,
+        "distance": "1.40"
+      }
+    },
+    {
+      "place": {
+        "address": "Lt. Ground, Epicentrum Walk",
+        "city": "Jakarta",
+        "name": "Epicentrum XXI",
+        "parent_name": "Jakarta",
+        "dislikes": 0,
+        "id": 10202,
+        "lng": 106.835067272186,
+        "phone2": "",
+        "parent_id": 9323,
+        "phone": "+62-21-29941300",
+        "lat": -6.21856952328844,
+        "place_type": "Arts & Entertainment",
+        "web": "http://www.21cineplex.com",
+        "likes": 41,
+        "distance": "1.47"
+      }
+    },
+    {
+      "place": {
+        "address": " Tebet",
+        "city": "Jakarta",
+        "name": "Manggarai",
+        "parent_name": "Jakarta",
+        "dislikes": 1,
+        "id": 1546,
+        "lng": 106.858352661133,
+        "phone2": null,
+        "parent_id": 1449,
+        "phone": "",
+        "lat": -6.21325778961182,
+        "place_type": "Area",
+        "web": "",
+        "likes": 29,
+        "distance": "1.47"
+      }
+    },
+    {
+      "place": {
+        "address": "Jalan HR. Rasuna Said, Setiabudi",
+        "city": "Jakarta",
+        "name": "Apartemen Taman Rasuna",
+        "parent_name": "Jakarta",
+        "dislikes": 0,
+        "id": 1890,
+        "lng": 106.836204528809,
+        "phone2": null,
+        "parent_id": 1418,
+        "phone": "",
+        "lat": -6.21972141834104,
+        "place_type": "Residence",
+        "web": "",
+        "likes": 22,
+        "distance": "1.46"
+      }
+    },
+    {
+      "place": {
+        "address": "Jl. Pinangsia Raya 1, Glodok Plaza Lt 3",
+        "city": "Jakarta",
+        "name": "Golden Crown",
+        "parent_name": "Jakarta",
+        "dislikes": 1,
+        "id": 240,
+        "lng": 106.845001220703,
+        "phone2": null,
+        "parent_id": 239,
+        "phone": "",
+        "lat": -6.21154022216797,
+        "place_type": "Arts & Entertainment",
+        "web": "",
+        "likes": 20,
+        "distance": "0.14"
+      }
+    },
+    {
+      "place": {
+        "address": "Jalan Menteng Pulo 1, Menteng Dalam",
+        "city": "Jakarta",
+        "name": "Pasar Menteng Pulo",
+        "parent_name": "Jakarta",
+        "dislikes": 0,
+        "id": 169679,
+        "lng": 106.844907983871,
+        "phone2": "",
+        "parent_id": 2,
+        "phone": "",
+        "lat": -6.2225075,
+        "place_type": "Shops",
+        "web": "",
+        "likes": 18,
+        "distance": "1.36"
+      }
+    }
+  ]
+]
+//////////////////////////////
+0  /////////////////////////////
+{
+  "place": {
+    "address": "Jl. Matraman Raya No. 46-50",
+    "city": "Jakarta",
+    "name": "Gramedia",
+    "parent_name": "Jakarta",
+    "dislikes": 4,
+    "id": 5716,
+    "lng": 106.85642736251,
+    "phone2": "",
+    "parent_id": 1420,
+    "phone": "+62-21-8581763",
+    "lat": -6.2027461336294,
+    "place_type": "Shops",
+    "web": "www.gramediaonline.com",
+    "likes": 193,
+    "distance": "1.48"
+  }
+}
+//////////////////////////////
+[
+  {
+    "place": {
+      "address": "Jl. Matraman Raya No. 46-50",
+      "city": "Jakarta",
+      "name": "Gramedia",
+      "parent_name": "Jakarta",
+      "dislikes": 4,
+      "id": 5716,
+      "lng": 106.85642736251,
+      "phone2": "",
+      "parent_id": 1420,
+      "phone": "+62-21-8581763",
+      "lat": -6.2027461336294,
+      "place_type": "Shops",
+      "web": "www.gramediaonline.com",
+      "likes": 193,
+      "distance": "1.48"
+    }
+  },
+  {
+    "place": {
+      "address": "",
+      "city": "Jakarta",
+      "name": "Setiabudi",
+      "parent_name": "Jakarta",
+      "dislikes": 2,
+      "id": 1418,
+      "lng": 106.833000183105,
+      "phone2": null,
+      "parent_id": 2,
+      "phone": "",
+      "lat": -6.20800018310547,
+      "place_type": "Area",
+      "web": "",
+      "likes": 69,
+      "distance": "1.40"
+    }
+  },
+  {
+    "place": {
+      "address": "Jl. Pegangsaan No. 21, Cikini",
+      "city": "Jakarta",
+      "name": "XXI Metropole",
+      "parent_name": "Jakarta",
+      "dislikes": 3,
+      "id": 7281,
+      "lng": 106.843092441559,
+      "phone2": null,
+      "parent_id": 79,
+      "phone": "+62-21- 31922249",
+      "lat": -6.19996820227451,
+      "place_type": "Arts & Entertainment",
+      "web": "www.21cineplex.com",
+      "likes": 67,
+      "distance": "1.19"
+    }
+  },
+  {
+    "place": {
+      "address": "Jl. Matraman",
+      "city": "Jakarta",
+      "name": "7 Eleven",
+      "parent_name": "Jakarta",
+      "dislikes": 9,
+      "id": 10181,
+      "lng": 106.853778362274,
+      "phone2": "",
+      "parent_id": 1420,
+      "phone": "",
+      "lat": -6.20011752742032,
+      "place_type": "Shops",
+      "web": "",
+      "likes": 57,
+      "distance": "1.47"
+    }
+  },
+  {
+    "place": {
+      "address": "12960, Setiabudi",
+      "city": "Jakarta",
+      "name": "Menteng Atas",
+      "parent_name": "Jakarta",
+      "dislikes": 1,
+      "id": 1648,
+      "lng": 106.833000183105,
+      "phone2": null,
+      "parent_id": 1418,
+      "phone": "",
+      "lat": -6.20800018310547,
+      "place_type": "Area",
+      "web": "",
+      "likes": 43,
+      "distance": "1.40"
+    }
+  },
+  {
+    "place": {
+      "address": "Lt. Ground, Epicentrum Walk",
+      "city": "Jakarta",
+      "name": "Epicentrum XXI",
+      "parent_name": "Jakarta",
+      "dislikes": 0,
+      "id": 10202,
+      "lng": 106.835067272186,
+      "phone2": "",
+      "parent_id": 9323,
+      "phone": "+62-21-29941300",
+      "lat": -6.21856952328844,
+      "place_type": "Arts & Entertainment",
+      "web": "http://www.21cineplex.com",
+      "likes": 41,
+      "distance": "1.47"
+    }
+  },
+  {
+    "place": {
+      "address": " Tebet",
+      "city": "Jakarta",
+      "name": "Manggarai",
+      "parent_name": "Jakarta",
+      "dislikes": 1,
+      "id": 1546,
+      "lng": 106.858352661133,
+      "phone2": null,
+      "parent_id": 1449,
+      "phone": "",
+      "lat": -6.21325778961182,
+      "place_type": "Area",
+      "web": "",
+      "likes": 29,
+      "distance": "1.47"
+    }
+  },
+  {
+    "place": {
+      "address": "Jalan HR. Rasuna Said, Setiabudi",
+      "city": "Jakarta",
+      "name": "Apartemen Taman Rasuna",
+      "parent_name": "Jakarta",
+      "dislikes": 0,
+      "id": 1890,
+      "lng": 106.836204528809,
+      "phone2": null,
+      "parent_id": 1418,
+      "phone": "",
+      "lat": -6.21972141834104,
+      "place_type": "Residence",
+      "web": "",
+      "likes": 22,
+      "distance": "1.46"
+    }
+  },
+  {
+    "place": {
+      "address": "Jl. Pinangsia Raya 1, Glodok Plaza Lt 3",
+      "city": "Jakarta",
+      "name": "Golden Crown",
+      "parent_name": "Jakarta",
+      "dislikes": 1,
+      "id": 240,
+      "lng": 106.845001220703,
+      "phone2": null,
+      "parent_id": 239,
+      "phone": "",
+      "lat": -6.21154022216797,
+      "place_type": "Arts & Entertainment",
+      "web": "",
+      "likes": 20,
+      "distance": "0.14"
+    }
+  },
+  {
+    "place": {
+      "address": "Jalan Menteng Pulo 1, Menteng Dalam",
+      "city": "Jakarta",
+      "name": "Pasar Menteng Pulo",
+      "parent_name": "Jakarta",
+      "dislikes": 0,
+      "id": 169679,
+      "lng": 106.844907983871,
+      "phone2": "",
+      "parent_id": 2,
+      "phone": "",
+      "lat": -6.2225075,
+      "place_type": "Shops",
+      "web": "",
+      "likes": 18,
+      "distance": "1.36"
+    }
+  }
+]
+------------- 10
+[
+  {
+    "place": {
+      "address": "Jl. Matraman Raya No. 46-50",
+      "city": "Jakarta",
+      "name": "Gramedia",
+      "parent_name": "Jakarta",
+      "dislikes": 4,
+      "id": 5716,
+      "lng": 106.85642736251,
+      "phone2": "",
+      "parent_id": 1420,
+      "phone": "+62-21-8581763",
+      "lat": -6.2027461336294,
+      "place_type": "Shops",
+      "web": "www.gramediaonline.com",
+      "likes": 193,
+      "distance": "1.48"
+    }
+  },
+  {
+    "place": {
+      "address": "",
+      "city": "Jakarta",
+      "name": "Setiabudi",
+      "parent_name": "Jakarta",
+      "dislikes": 2,
+      "id": 1418,
+      "lng": 106.833000183105,
+      "phone2": null,
+      "parent_id": 2,
+      "phone": "",
+      "lat": -6.20800018310547,
+      "place_type": "Area",
+      "web": "",
+      "likes": 69,
+      "distance": "1.40"
+    }
+  },
+  {
+    "place": {
+      "address": "Jl. Pegangsaan No. 21, Cikini",
+      "city": "Jakarta",
+      "name": "XXI Metropole",
+      "parent_name": "Jakarta",
+      "dislikes": 3,
+      "id": 7281,
+      "lng": 106.843092441559,
+      "phone2": null,
+      "parent_id": 79,
+      "phone": "+62-21- 31922249",
+      "lat": -6.19996820227451,
+      "place_type": "Arts & Entertainment",
+      "web": "www.21cineplex.com",
+      "likes": 67,
+      "distance": "1.19"
+    }
+  },
+  {
+    "place": {
+      "address": "Jl. Matraman",
+      "city": "Jakarta",
+      "name": "7 Eleven",
+      "parent_name": "Jakarta",
+      "dislikes": 9,
+      "id": 10181,
+      "lng": 106.853778362274,
+      "phone2": "",
+      "parent_id": 1420,
+      "phone": "",
+      "lat": -6.20011752742032,
+      "place_type": "Shops",
+      "web": "",
+      "likes": 57,
+      "distance": "1.47"
+    }
+  },
+  {
+    "place": {
+      "address": "12960, Setiabudi",
+      "city": "Jakarta",
+      "name": "Menteng Atas",
+      "parent_name": "Jakarta",
+      "dislikes": 1,
+      "id": 1648,
+      "lng": 106.833000183105,
+      "phone2": null,
+      "parent_id": 1418,
+      "phone": "",
+      "lat": -6.20800018310547,
+      "place_type": "Area",
+      "web": "",
+      "likes": 43,
+      "distance": "1.40"
+    }
+  },
+  {
+    "place": {
+      "address": "Lt. Ground, Epicentrum Walk",
+      "city": "Jakarta",
+      "name": "Epicentrum XXI",
+      "parent_name": "Jakarta",
+      "dislikes": 0,
+      "id": 10202,
+      "lng": 106.835067272186,
+      "phone2": "",
+      "parent_id": 9323,
+      "phone": "+62-21-29941300",
+      "lat": -6.21856952328844,
+      "place_type": "Arts & Entertainment",
+      "web": "http://www.21cineplex.com",
+      "likes": 41,
+      "distance": "1.47"
+    }
+  },
+  {
+    "place": {
+      "address": " Tebet",
+      "city": "Jakarta",
+      "name": "Manggarai",
+      "parent_name": "Jakarta",
+      "dislikes": 1,
+      "id": 1546,
+      "lng": 106.858352661133,
+      "phone2": null,
+      "parent_id": 1449,
+      "phone": "",
+      "lat": -6.21325778961182,
+      "place_type": "Area",
+      "web": "",
+      "likes": 29,
+      "distance": "1.47"
+    }
+  },
+  {
+    "place": {
+      "address": "Jalan HR. Rasuna Said, Setiabudi",
+      "city": "Jakarta",
+      "name": "Apartemen Taman Rasuna",
+      "parent_name": "Jakarta",
+      "dislikes": 0,
+      "id": 1890,
+      "lng": 106.836204528809,
+      "phone2": null,
+      "parent_id": 1418,
+      "phone": "",
+      "lat": -6.21972141834104,
+      "place_type": "Residence",
+      "web": "",
+      "likes": 22,
+      "distance": "1.46"
+    }
+  },
+  {
+    "place": {
+      "address": "Jl. Pinangsia Raya 1, Glodok Plaza Lt 3",
+      "city": "Jakarta",
+      "name": "Golden Crown",
+      "parent_name": "Jakarta",
+      "dislikes": 1,
+      "id": 240,
+      "lng": 106.845001220703,
+      "phone2": null,
+      "parent_id": 239,
+      "phone": "",
+      "lat": -6.21154022216797,
+      "place_type": "Arts & Entertainment",
+      "web": "",
+      "likes": 20,
+      "distance": "0.14"
+    }
+  },
+  {
+    "place": {
+      "address": "Jalan Menteng Pulo 1, Menteng Dalam",
+      "city": "Jakarta",
+      "name": "Pasar Menteng Pulo",
+      "parent_name": "Jakarta",
+      "dislikes": 0,
+      "id": 169679,
+      "lng": 106.844907983871,
+      "phone2": "",
+      "parent_id": 2,
+      "phone": "",
+      "lat": -6.2225075,
+      "place_type": "Shops",
+      "web": "",
+      "likes": 18,
+      "distance": "1.36"
+    }
+  }
+]
+------------- 10
+0000000000000000000000
+{
+  "place": {
+    "address": "Jl. Matraman Raya No. 46-50",
+    "city": "Jakarta",
+    "name": "Gramedia",
+    "parent_name": "Jakarta",
+    "dislikes": 4,
+    "id": 5716,
+    "lng": 106.85642736251,
+    "phone2": "",
+    "parent_id": 1420,
+    "phone": "+62-21-8581763",
+    "lat": -6.2027461336294,
+    "place_type": "Shops",
+    "web": "www.gramediaonline.com",
+    "likes": 193,
+    "distance": "1.48"
+  }
+}
+0000000000000000000000
+{
+  "place": {
+    "address": "",
+    "city": "Jakarta",
+    "name": "Setiabudi",
+    "parent_name": "Jakarta",
+    "dislikes": 2,
+    "id": 1418,
+    "lng": 106.833000183105,
+    "phone2": null,
+    "parent_id": 2,
+    "phone": "",
+    "lat": -6.20800018310547,
+    "place_type": "Area",
+    "web": "",
+    "likes": 69,
+    "distance": "1.40"
+  }
+}
+0000000000000000000000
+{
+  "place": {
+    "address": "Jl. Pegangsaan No. 21, Cikini",
+    "city": "Jakarta",
+    "name": "XXI Metropole",
+    "parent_name": "Jakarta",
+    "dislikes": 3,
+    "id": 7281,
+    "lng": 106.843092441559,
+    "phone2": null,
+    "parent_id": 79,
+    "phone": "+62-21- 31922249",
+    "lat": -6.19996820227451,
+    "place_type": "Arts & Entertainment",
+    "web": "www.21cineplex.com",
+    "likes": 67,
+    "distance": "1.19"
+  }
+}
+0000000000000000000000
+{
+  "place": {
+    "address": "Jl. Matraman",
+    "city": "Jakarta",
+    "name": "7 Eleven",
+    "parent_name": "Jakarta",
+    "dislikes": 9,
+    "id": 10181,
+    "lng": 106.853778362274,
+    "phone2": "",
+    "parent_id": 1420,
+    "phone": "",
+    "lat": -6.20011752742032,
+    "place_type": "Shops",
+    "web": "",
+    "likes": 57,
+    "distance": "1.47"
+  }
+}
+0000000000000000000000
+{
+  "place": {
+    "address": "12960, Setiabudi",
+    "city": "Jakarta",
+    "name": "Menteng Atas",
+    "parent_name": "Jakarta",
+    "dislikes": 1,
+    "id": 1648,
+    "lng": 106.833000183105,
+    "phone2": null,
+    "parent_id": 1418,
+    "phone": "",
+    "lat": -6.20800018310547,
+    "place_type": "Area",
+    "web": "",
+    "likes": 43,
+    "distance": "1.40"
+  }
+}
+0000000000000000000000
+{
+  "place": {
+    "address": "Lt. Ground, Epicentrum Walk",
+    "city": "Jakarta",
+    "name": "Epicentrum XXI",
+    "parent_name": "Jakarta",
+    "dislikes": 0,
+    "id": 10202,
+    "lng": 106.835067272186,
+    "phone2": "",
+    "parent_id": 9323,
+    "phone": "+62-21-29941300",
+    "lat": -6.21856952328844,
+    "place_type": "Arts & Entertainment",
+    "web": "http://www.21cineplex.com",
+    "likes": 41,
+    "distance": "1.47"
+  }
+}
+0000000000000000000000
+{
+  "place": {
+    "address": " Tebet",
+    "city": "Jakarta",
+    "name": "Manggarai",
+    "parent_name": "Jakarta",
+    "dislikes": 1,
+    "id": 1546,
+    "lng": 106.858352661133,
+    "phone2": null,
+    "parent_id": 1449,
+    "phone": "",
+    "lat": -6.21325778961182,
+    "place_type": "Area",
+    "web": "",
+    "likes": 29,
+    "distance": "1.47"
+  }
+}
+0000000000000000000000
+{
+  "place": {
+    "address": "Jalan HR. Rasuna Said, Setiabudi",
+    "city": "Jakarta",
+    "name": "Apartemen Taman Rasuna",
+    "parent_name": "Jakarta",
+    "dislikes": 0,
+    "id": 1890,
+    "lng": 106.836204528809,
+    "phone2": null,
+    "parent_id": 1418,
+    "phone": "",
+    "lat": -6.21972141834104,
+    "place_type": "Residence",
+    "web": "",
+    "likes": 22,
+    "distance": "1.46"
+  }
+}
+0000000000000000000000
+{
+  "place": {
+    "address": "Jl. Pinangsia Raya 1, Glodok Plaza Lt 3",
+    "city": "Jakarta",
+    "name": "Golden Crown",
+    "parent_name": "Jakarta",
+    "dislikes": 1,
+    "id": 240,
+    "lng": 106.845001220703,
+    "phone2": null,
+    "parent_id": 239,
+    "phone": "",
+    "lat": -6.21154022216797,
+    "place_type": "Arts & Entertainment",
+    "web": "",
+    "likes": 20,
+    "distance": "0.14"
+  }
+}
+0000000000000000000000
+{
+  "place": {
+    "address": "Jalan Menteng Pulo 1, Menteng Dalam",
+    "city": "Jakarta",
+    "name": "Pasar Menteng Pulo",
+    "parent_name": "Jakarta",
+    "dislikes": 0,
+    "id": 169679,
+    "lng": 106.844907983871,
+    "phone2": "",
+    "parent_id": 2,
+    "phone": "",
+    "lat": -6.2225075,
+    "place_type": "Shops",
+    "web": "",
+    "likes": 18,
+    "distance": "1.36"
+  }
+}
+------------- 10
+0000000000000000000000
+{
+  "place": {
+    "address": "Jl. Matraman Raya No. 46-50",
+    "city": "Jakarta",
+    "name": "Gramedia",
+    "parent_name": "Jakarta",
+    "dislikes": 4,
+    "id": 5716,
+    "lng": 106.85642736251,
+    "phone2": "",
+    "parent_id": 1420,
+    "phone": "+62-21-8581763",
+    "lat": -6.2027461336294,
+    "place_type": "Shops",
+    "web": "www.gramediaonline.com",
+    "likes": 193,
+    "distance": "1.48"
+  }
+}
+>>>> Jl. Matraman Raya No. 46-50
+0000000000000000000000
+{
+  "place": {
+    "address": "",
+    "city": "Jakarta",
+    "name": "Setiabudi",
+    "parent_name": "Jakarta",
+    "dislikes": 2,
+    "id": 1418,
+    "lng": 106.833000183105,
+    "phone2": null,
+    "parent_id": 2,
+    "phone": "",
+    "lat": -6.20800018310547,
+    "place_type": "Area",
+    "web": "",
+    "likes": 69,
+    "distance": "1.40"
+  }
+}
+>>>> 
+0000000000000000000000
+{
+  "place": {
+    "address": "Jl. Pegangsaan No. 21, Cikini",
+    "city": "Jakarta",
+    "name": "XXI Metropole",
+    "parent_name": "Jakarta",
+    "dislikes": 3,
+    "id": 7281,
+    "lng": 106.843092441559,
+    "phone2": null,
+    "parent_id": 79,
+    "phone": "+62-21- 31922249",
+    "lat": -6.19996820227451,
+    "place_type": "Arts & Entertainment",
+    "web": "www.21cineplex.com",
+    "likes": 67,
+    "distance": "1.19"
+  }
+}
+>>>> Jl. Pegangsaan No. 21, Cikini
+0000000000000000000000
+{
+  "place": {
+    "address": "Jl. Matraman",
+    "city": "Jakarta",
+    "name": "7 Eleven",
+    "parent_name": "Jakarta",
+    "dislikes": 9,
+    "id": 10181,
+    "lng": 106.853778362274,
+    "phone2": "",
+    "parent_id": 1420,
+    "phone": "",
+    "lat": -6.20011752742032,
+    "place_type": "Shops",
+    "web": "",
+    "likes": 57,
+    "distance": "1.47"
+  }
+}
+>>>> Jl. Matraman
+0000000000000000000000
+{
+  "place": {
+    "address": "12960, Setiabudi",
+    "city": "Jakarta",
+    "name": "Menteng Atas",
+    "parent_name": "Jakarta",
+    "dislikes": 1,
+    "id": 1648,
+    "lng": 106.833000183105,
+    "phone2": null,
+    "parent_id": 1418,
+    "phone": "",
+    "lat": -6.20800018310547,
+    "place_type": "Area",
+    "web": "",
+    "likes": 43,
+    "distance": "1.40"
+  }
+}
+>>>> 12960, Setiabudi
+0000000000000000000000
+{
+  "place": {
+    "address": "Lt. Ground, Epicentrum Walk",
+    "city": "Jakarta",
+    "name": "Epicentrum XXI",
+    "parent_name": "Jakarta",
+    "dislikes": 0,
+    "id": 10202,
+    "lng": 106.835067272186,
+    "phone2": "",
+    "parent_id": 9323,
+    "phone": "+62-21-29941300",
+    "lat": -6.21856952328844,
+    "place_type": "Arts & Entertainment",
+    "web": "http://www.21cineplex.com",
+    "likes": 41,
+    "distance": "1.47"
+  }
+}
+>>>> Lt. Ground, Epicentrum Walk
+0000000000000000000000
+{
+  "place": {
+    "address": " Tebet",
+    "city": "Jakarta",
+    "name": "Manggarai",
+    "parent_name": "Jakarta",
+    "dislikes": 1,
+    "id": 1546,
+    "lng": 106.858352661133,
+    "phone2": null,
+    "parent_id": 1449,
+    "phone": "",
+    "lat": -6.21325778961182,
+    "place_type": "Area",
+    "web": "",
+    "likes": 29,
+    "distance": "1.47"
+  }
+}
+>>>>  Tebet
+0000000000000000000000
+{
+  "place": {
+    "address": "Jalan HR. Rasuna Said, Setiabudi",
+    "city": "Jakarta",
+    "name": "Apartemen Taman Rasuna",
+    "parent_name": "Jakarta",
+    "dislikes": 0,
+    "id": 1890,
+    "lng": 106.836204528809,
+    "phone2": null,
+    "parent_id": 1418,
+    "phone": "",
+    "lat": -6.21972141834104,
+    "place_type": "Residence",
+    "web": "",
+    "likes": 22,
+    "distance": "1.46"
+  }
+}
+>>>> Jalan HR. Rasuna Said, Setiabudi
+0000000000000000000000
+{
+  "place": {
+    "address": "Jl. Pinangsia Raya 1, Glodok Plaza Lt 3",
+    "city": "Jakarta",
+    "name": "Golden Crown",
+    "parent_name": "Jakarta",
+    "dislikes": 1,
+    "id": 240,
+    "lng": 106.845001220703,
+    "phone2": null,
+    "parent_id": 239,
+    "phone": "",
+    "lat": -6.21154022216797,
+    "place_type": "Arts & Entertainment",
+    "web": "",
+    "likes": 20,
+    "distance": "0.14"
+  }
+}
+>>>> Jl. Pinangsia Raya 1, Glodok Plaza Lt 3
+0000000000000000000000
+{
+  "place": {
+    "address": "Jalan Menteng Pulo 1, Menteng Dalam",
+    "city": "Jakarta",
+    "name": "Pasar Menteng Pulo",
+    "parent_name": "Jakarta",
+    "dislikes": 0,
+    "id": 169679,
+    "lng": 106.844907983871,
+    "phone2": "",
+    "parent_id": 2,
+    "phone": "",
+    "lat": -6.2225075,
+    "place_type": "Shops",
+    "web": "",
+    "likes": 18,
+    "distance": "1.36"
+  }
+}
+>>>> Jalan Menteng Pulo 1, Menteng Dalam

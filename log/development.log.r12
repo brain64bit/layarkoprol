@@ -1,0 +1,835 @@
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from process_request at /var/lib/passenger-standalone/3.0.5-x86-ruby1.8.7-linux-gcc4.4.5-1002/support/lib/phusion_passenger/rack/request_handler.rb:96)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 14:57:02 +0700 2011
+
+Mysql2::Error (Unknown database 'layarkoprol_development'):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.9ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.3ms)
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (129.4ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36mSQL (1.4ms)[0m  [1mSHOW KEYS FROM `schema_migrations`[0m
+  [1m[35mSQL (234.4ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.9ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 14:57:34 +0700 2011
+  Processing by PoiController#index as HTML
+Completed 500 Internal Server Error in 716ms
+
+ActionView::MissingTemplate (Missing template poi/index with {:locale=>[:en, :en], :handlers=>[:builder, :rxml, :erb, :rjs, :rhtml], :formats=>[:html]} in view paths "/home/agung/NetBeansProjects/layarkoprol/app/views"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (2.1ms)
+
+
+Started GET "/?id=49" for 127.0.0.1 at Mon Aug 01 14:57:50 +0700 2011
+  Processing by PoiController#index as HTML
+  Parameters: {"id"=>"49"}
+Completed 500 Internal Server Error in 1889ms
+
+ActionView::MissingTemplate (Missing template poi/index with {:locale=>[:en, :en], :handlers=>[:builder, :rxml, :erb, :rjs, :rhtml], :formats=>[:html]} in view paths "/home/agung/NetBeansProjects/layarkoprol/app/views"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started GET "/poi?id=2476" for 127.0.0.1 at Mon Aug 01 15:00:37 +0700 2011
+  Processing by PoiController#index as HTML
+  Parameters: {"id"=>"2476"}
+Completed 500 Internal Server Error in 3092ms
+
+ActionView::MissingTemplate (Missing template poi/index with {:locale=>[:en, :en], :handlers=>[:builder, :rxml, :erb, :rjs, :rhtml], :formats=>[:html]} in view paths "/home/agung/NetBeansProjects/layarkoprol/app/views"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (2.2ms)
+
+
+Started GET "/poi?id=2476" for 127.0.0.1 at Mon Aug 01 15:01:02 +0700 2011
+  Processing by PoiController#index as HTML
+  Parameters: {"id"=>"2476"}
+Completed 500 Internal Server Error in 7713ms
+
+NoMethodError (undefined method `model_name' for Net::HTTPOK:Class):
+  app/controllers/poi_controller.rb:6:in `index'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (20.3ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (38.5ms)
+
+
+Started GET "/poi?id=2476" for 127.0.0.1 at Mon Aug 01 15:05:22 +0700 2011
+  Processing by PoiController#index as HTML
+  Parameters: {"id"=>"2476"}
+Completed 500 Internal Server Error in 2517ms
+
+NoMethodError (undefined method `model_name' for Net::HTTPOK:Class):
+  app/controllers/poi_controller.rb:6:in `index'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (44.1ms)
+
+
+Started GET "/poi?id=2476" for 127.0.0.1 at Mon Aug 01 15:05:49 +0700 2011
+  Processing by PoiController#index as HTML
+  Parameters: {"id"=>"2476"}
+Completed 500 Internal Server Error in 1542ms
+
+ActionView::MissingTemplate (Missing template poi/{"place":{"name":"National Library","city":"Jakarta","address":"Jalan Salemba 27","parent_name":"Jakarta","lng":106.851831,"id":2476,"dislikes":3,"phone2":null,"phone":"","parent_id":1605,"web":"","place_type":"Residence","lat":-6.1986829,"distance":"","likes":18}} with {:locale=>[:en, :en], :handlers=>[:builder, :rxml, :erb, :rjs, :rhtml], :formats=>[:html]} in view paths "/home/agung/NetBeansProjects/layarkoprol/app/views"):
+  app/controllers/poi_controller.rb:6:in `index'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started GET "/poi?id=2476" for 127.0.0.1 at Mon Aug 01 15:07:22 +0700 2011
+  Processing by PoiController#index as HTML
+  Parameters: {"id"=>"2476"}
+Completed 406 Not Acceptable in 5284ms
+
+
+Started GET "/poi?id=2476" for 127.0.0.1 at Mon Aug 01 15:09:03 +0700 2011
+  Processing by PoiController#index as HTML
+  Parameters: {"id"=>"2476"}
+Completed 200 OK in 2909ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/place?id=2476" for 127.0.0.1 at Mon Aug 01 15:20:11 +0700 2011
+
+ActionController::RoutingError (No route matches "/place"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.9ms)
+
+
+Started GET "/poi/place?id=2476" for 127.0.0.1 at Mon Aug 01 15:20:25 +0700 2011
+  Processing by PoiController#index as HTML
+  Parameters: {"id"=>"2476"}
+Completed 404 Not Found in 3ms
+
+ActionController::RoutingError (No route matches {:controller=>"poi"}):
+  app/controllers/poi_controller.rb:3:in `index'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/place?id=2476" for 127.0.0.1 at Mon Aug 01 15:20:35 +0700 2011
+
+ActionController::RoutingError (No route matches "/place"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.9ms)
+
+
+Started GET "/poi/place?id=2476" for 127.0.0.1 at Mon Aug 01 15:20:51 +0700 2011
+  Processing by PoiController#place as HTML
+  Parameters: {"id"=>"2476"}
+Completed 200 OK in 3321ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/place?id=2476" for 127.0.0.1 at Mon Aug 01 15:21:11 +0700 2011
+  Processing by PoiController#place as HTML
+  Parameters: {"id"=>"2476"}
+Completed 200 OK in 2330ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Mon Aug 01 15:22:59 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 2223ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Mon Aug 01 15:24:05 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 3835ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446&page=2" for 127.0.0.1 at Mon Aug 01 15:24:25 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "page"=>"2", "lat"=>"-6.210357"}
+Completed 200 OK in 1762ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/place?id=2476" for 127.0.0.1 at Mon Aug 01 15:34:59 +0700 2011
+  Processing by PoiController#place as HTML
+  Parameters: {"id"=>"2476"}
+Completed 200 OK in 2172ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446&page=1" for 127.0.0.1 at Mon Aug 01 15:35:17 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "page"=>"1", "lat"=>"-6.210357"}
+Completed 200 OK in 1854ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:45:31 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 620ms
+
+NoMethodError (undefined method `empty' for #<Array:0xb63556a4>):
+  app/models/koprol_bridge.rb:27:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (24.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (50.1ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:45:46 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 663ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:34:in `[]'
+  app/models/koprol_bridge.rb:34:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.4ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:46:29 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 6723ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:34:in `[]'
+  app/models/koprol_bridge.rb:34:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.8ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:48:13 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 514ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:34:in `[]'
+  app/models/koprol_bridge.rb:34:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.2ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:50:29 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 569ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:37:in `[]'
+  app/models/koprol_bridge.rb:37:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (20.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (37.1ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:51:39 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 849ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:37:in `[]'
+  app/models/koprol_bridge.rb:37:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.7ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:52:44 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 422ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:34:in `[]'
+  app/models/koprol_bridge.rb:34:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.4ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:53:26 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 637ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:38:in `[]'
+  app/models/koprol_bridge.rb:38:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.3ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.8ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:54:04 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 567ms
+
+NameError (uninitialized constant KoprolBridge::JSON):
+  app/models/koprol_bridge.rb:33:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (16.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (14.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (49.6ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:54:56 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 442ms
+
+NameError (uninitialized constant KoprolBridge::JSON):
+  app/models/koprol_bridge.rb:33:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.1ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:55:49 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 22ms
+
+LoadError (no such file to load -- json):
+  app/models/koprol_bridge.rb:2
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:58:11 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 633ms
+
+JSON::GeneratorError (only generation of JSON objects or arrays allowed):
+  app/models/koprol_bridge.rb:33:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.3ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:58:29 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 371ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:38:in `[]'
+  app/models/koprol_bridge.rb:38:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (24.3ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (43.8ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:59:21 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 392ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:38:in `[]'
+  app/models/koprol_bridge.rb:38:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.3ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:59:52 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 576ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:31:in `[]'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.4ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:01:05 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+  [1m[36mSQL (26.9ms)[0m  [1mSHOW TABLES[0m
+Completed   in 452ms
+
+NoMethodError (undefined method `change_to_int_loc' for KoprolBridge(Table doesn't exist):Class):
+  app/models/koprol_bridge.rb:38:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.7ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:04:22 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 454ms (Views: 23.8ms | ActiveRecord: 26.9ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:06:13 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 402ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:25:in `[]'
+  app/models/koprol_bridge.rb:25:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (52.4ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:06:45 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 361ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:07:58 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 385ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:09:37 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 466ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:11:25 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+  [1m[36mSQL (1.1ms)[0m  [1mSHOW TABLES[0m
+Completed   in 399ms
+
+NoMethodError (undefined method `change_to_int_loc' for KoprolBridge(Table doesn't exist):Class):
+  app/models/koprol_bridge.rb:47:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (24.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (45.8ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:12:17 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+  [1m[35mSQL (0.9ms)[0m  SHOW TABLES
+Completed   in 366ms
+
+NoMethodError (undefined method `change_to_int_loc' for KoprolBridge(Table doesn't exist):Class):
+  app/models/koprol_bridge.rb:47:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.2ms)
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (45.4ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW TABLES[0m
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:14:26 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 398ms
+
+NoMethodError (undefined method `change_to_int_loc' for KoprolBridge:Class):
+  app/models/koprol_bridge.rb:47:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.8ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:24:18 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 394ms
+
+NoMethodError (undefined method `change_to_int_loc' for KoprolBridge:Class):
+  app/models/koprol_bridge.rb:47:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (25.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (48.3ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:25:01 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 402ms
+
+NoMethodError (undefined method `change_to_int' for KoprolBridge:Class):
+  app/models/koprol_bridge.rb:50:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (42.4ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:25:26 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 367ms
+
+NoMethodError (undefined method `mile_to_m' for KoprolBridge:Class):
+  app/models/koprol_bridge.rb:53:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (20.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.3ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:25:47 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 404ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]=):
+  app/models/koprol_bridge.rb:55:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (49.6ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:29:38 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 700ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]=):
+  app/models/koprol_bridge.rb:55:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (44.9ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:33:48 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 475ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:34:14 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 400ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:35:22 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 3553ms
+
+RuntimeError (--- 
+hotspots: 
+  9: 
+    lon: 106844907.983871
+    actions: []
+
+    type: 1
+    dimension: 1
+    lat: -6222507.5
+    distance: 1.361
+):
+  app/models/koprol_bridge.rb:59:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (25.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.4ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:35:48 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 573ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/koprol_bridge.rb:55:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.3ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (43.7ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:42:19 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 720ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/koprol_bridge.rb:56:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.1ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 13:05:05 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 499ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/koprol_bridge.rb:49:in `get_top_nearby'
+  app/models/koprol_bridge.rb:36:in `each'
+  app/models/koprol_bridge.rb:36:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (21.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.4ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 13:05:54 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 538ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/koprol_bridge.rb:50:in `get_top_nearby'
+  app/models/koprol_bridge.rb:36:in `each'
+  app/models/koprol_bridge.rb:36:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.9ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 13:06:48 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 507ms
+
+RuntimeError (--- 
+errorCode: 0
+hotspots: 
+- lon: 106856427.36251
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6202746.1336294
+  distance: 1.481
+- lon: 106833000.183105
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6208000.18310547
+  distance: 1.401
+- lon: 106843092.441559
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6199968.20227451
+  distance: 1.191
+- lon: 106853778.362274
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6200117.52742032
+  distance: 1.471
+- lon: 106833000.183105
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6208000.18310547
+  distance: 1.401
+- lon: 106835067.272186
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6218569.52328844
+  distance: 1.471
+- lon: 106858352.661133
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6213257.78961182
+  distance: 1.471
+- lon: 106836204.528809
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6219721.41834104
+  distance: 1.461
+- lon: 106845001.220703
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6211540.22216797
+  distance: 0.14
+- lon: 106844907.983871
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6222507.5
+  distance: 1.361
+errorString: ok
+):
+  app/models/koprol_bridge.rb:55:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.9ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 13:07:04 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 541ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 13:07:43 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 531ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 13:11:46 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 439ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 13:14:08 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 540ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 13:15:32 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 402ms (Views: 7.8ms | ActiveRecord: 0.0ms)

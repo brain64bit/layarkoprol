@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/layarkoprol/!svn/ver/42/trunk/layarkoprol/log
+END
+test.log
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/layarkoprol/!svn/ver/3/trunk/layarkoprol/log/test.log
+END
+development.log
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/layarkoprol/!svn/ver/42/trunk/layarkoprol/log/development.log
+END
+server.log
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/layarkoprol/!svn/ver/3/trunk/layarkoprol/log/server.log
+END
+production.log
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/layarkoprol/!svn/ver/3/trunk/layarkoprol/log/production.log
+END
+passenger.3000.log
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/layarkoprol/!svn/ver/5/trunk/layarkoprol/log/passenger.3000.log
+END

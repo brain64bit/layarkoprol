@@ -1,0 +1,39 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 26
+/svn/layarkoprol/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/layarkoprol/!svn/ver/42/trunk/layarkoprol
+END
+Gemfile.lock
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/layarkoprol/!svn/ver/5/trunk/layarkoprol/Gemfile.lock
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/layarkoprol/!svn/ver/3/trunk/layarkoprol/Rakefile
+END
+Gemfile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/layarkoprol/!svn/ver/5/trunk/layarkoprol/Gemfile
+END
+config.ru
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/layarkoprol/!svn/ver/3/trunk/layarkoprol/config.ru
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/layarkoprol/!svn/ver/3/trunk/layarkoprol/README
+END

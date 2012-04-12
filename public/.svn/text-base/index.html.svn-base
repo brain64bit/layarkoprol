@@ -1,0 +1,277 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Hackandroll - Koprol nearby top places and streams on Layar"/>
+    <meta name="keywords"
+          content="koprol, layar, hackandroll, bistip, panggi libersa jasri akadol, willy ekasalim, agung prasetyo"/>
+
+    <link href="stylesheets/reset.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="stylesheets/core.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="stylesheets/slider.css" rel="stylesheet" type="text/css" media="screen"/>
+	<link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css" media="screen" /> 
+    <!--[if lte IE 7 ]>
+    <link href="css/ie7.css" rel="stylesheet" type="text/css" media="screen"/>
+    <![endif]-->
+    <!--[if lte IE 8 ]>
+    <link href="css/ie8.css" rel="stylesheet" type="text/css" media="screen"/>
+    <![endif]-->
+
+    <title>hackandroll - Koprol nearby top places and streams on Layar</title>
+
+</head>
+
+<body>
+
+<div id="header_wrap">
+
+    <div id="header">
+
+        <div id="top">
+
+            <h1 id="logo"><a href="#"><img src="images/logo-hnr.png" width="135" height="40" alt="Hackandroll"/></a>
+            </h1>
+
+            <ul id="nav">
+                <li><a href="#features" class="scroll">Features</a></li>
+                <li><a href="#footer" class="scroll">Try Koprol layer</a></li>
+            </ul>
+
+        </div>
+        <!-- end top -->
+
+        <div id="intro">
+
+            <div id="pitch">
+
+                <h2>Koprol nearby top places and streams on Layar</h2>
+
+                <p class="subheading">Feel the new experience on your real world! see the top places and streams of
+                    koprol around you. </p>
+          
+            </div>
+
+            <div id="product">
+
+                <div id="slider" class="nivoSlider">
+                    <img src="images/screenshots/screen_01.jpg" alt=""/>
+                    <img src="images/screenshots/screen_03.jpg" alt=""/>
+                    <img src="images/screenshots/screen_02.jpg" alt=""/>
+                </div>
+
+            </div>
+
+            <div id="highlights">
+
+                <ul>
+                    <li align="center">Created by <a
+                            href="http://developer.yahoo.com/hacku/hackuhandler.php?appid=hacku&op=showhack&hackid=3780"
+                            target="_blank">Bistip Team</a> for <strong><a
+                            href="http://developer.yahoo.com/hackandroll/" target="_blank">hackandroll</a></strong>
+                        submission (not for public).
+                    </li>
+                    <li align="center"><a
+                            href="http://developer.yahoo.com/hacku/hackuhandler.php?appid=hacku&op=showhack&hackid=3780"
+                            target="_blank"><img src="images/hackandroll.jpg"></a></li>
+                </ul>
+
+            </div>
+
+            <div class="clear"></div>
+
+        </div>
+        <!-- end intro -->
+
+    </div>
+    <!-- end header -->
+
+</div>
+<!-- end header wrap -->
+
+<div id="content_wrap">
+
+    <div id="content">
+
+        <div id="features">
+
+            <div class="feature separator_r">
+
+                <img src="images/icons/01.png" width="56" height="56" alt=""/>
+
+                <h3>Nearby top places</h3>
+
+                <p>Wanna hang out and don't know where to go? This koprol layer will show you the top places around so
+                    it will give you the idea where to go.</p>
+
+            </div>
+
+            <div class="feature separator_r">
+
+                <img src="images/icons/02.png" width="56" height="56" alt=""/>
+
+                <h3>Nearby streams</h3>
+
+                <p>See the recent koprol status of people around you. Why do you just sit down in front of computer all
+                    day long? go socialize with your neighbors.</p>
+
+            </div>
+
+            <div class="feature">
+
+                <img src="images/icons/03.png" width="56" height="56" alt=""/>
+
+                <h3>See the POIs on the Map</h3>
+
+                <p>If you think it's easier to see the Point of Interests on the map, you simply can do it by selecting
+                    the map option on your layar app. </p>
+
+            </div>
+
+            <div class="feature separator_r">
+
+                <img src="images/icons/04.png" width="56" height="56" alt=""/>
+
+                <h3>Capture the POIs</h3>
+
+                <p>Capture the interesting Point of Interests and share it in many ways such as email, social media or
+                    just save it on your phone.</p>
+
+            </div>
+
+            <div class="feature separator_r">
+
+                <img src="images/icons/05.png" width="56" height="56" alt=""/>
+
+                <h3>Make a call or visit the website of POIs</h3>
+
+                <p>If you are lucky, you can find some places that have a phone number and a web page. You can call the
+                    place's phone number or visit the web directly from the app.</p>
+
+            </div>
+
+            <div class="feature">
+
+                <img src="images/Outer.png" width="56" height="56" alt=""/>
+
+                <h3>Interact with the streams</h3>
+
+                <p>You need more than just to see the streams? you can go to the stream on koprol and interact with the
+                    people in a single touch.</p>
+
+            </div>
+
+        </div>
+        <!-- end features -->
+
+        <div id="additional_info">
+
+            <div id="columns_wrap">
+
+                <div id="more_features">
+
+                    <h3>Try Koprol layer</h3>
+                    <ul>
+                        <li>Go to <strong><a href="http://www.layar.com/download/"
+                                             target="_blank">layar.com</a></strong> and install the app.
+                        </li>
+                        <li>Send the email to <strong><a
+                                href="mailto:bistip.team@yahoo.com">bistip.team@yahoo.com</a></strong> by using the
+                            layar account email address to get invitation. <i>(we have created a special account for the judges)</i>
+                        </li>
+                        <li>We will send an invitation email to you.</li>
+                        <li>Open the layar app and login with your layar account.</li>
+                        <li>Access the Koprol layer on the <strong>"Test"</strong> section of the layer.</li>
+                    </ul>
+
+                </div>
+
+                <div id="testimonials">
+
+                    <h3>Requirements</h3>
+                    <ul>
+                        <li>iPhone, Android or Symbian</li>
+                        <li>See the details at <strong><a href="http://www.layar.com/download/" target="_blank">layar.com/download</a></strong>.
+                        </li>
+                        <li><a href="http://www.layar.com" target="_blank"><img src="images/Layar-logo.png"></a></li>
+                    </ul>
+
+                </div>
+
+                <div id="requirements">
+
+                    <h3>About Us</h3>
+                    <ul>
+                        <li><a href="http://www.bistip.com/u/weka" target="_blank">Willy Ekasalim</a></li>
+                        <li><a href="http://www.bistip.com/u/agung" target="_blank">Agung Prasetyo</a></li>
+                        <li><a href="http://www.bistip.com/u/panggi" target="_blank">Panggi Libersa Jasri Akadol</a>
+                        </li>
+                        <br/>
+                        <li><a href="http://www.bistip.com" target="_blank"><img src="images/bistip.png"></a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- end additional info -->
+
+    </div>
+    <!-- end content -->
+
+</div>
+<!-- end content wrap -->
+
+<div id="footer_wrap">
+
+    <div id="footer">
+
+        <a id="back_to_top" class="top scroll" href="#top">top</a>
+
+        <div class="clear"></div>
+
+        <div id="copyright">
+
+            <p>Koprol is a product of Yahoo! Southeast Asia Pte. Ltd. and Layar is a product of Layar .B.V</p>
+
+        </div>
+
+    </div>
+    <!-- end footer -->
+
+</div>
+<!-- end footer wrap -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="javascripts/slider.js"></script>
+
+	<script type="text/javascript">
+
+		$(document).ready(function() {
+
+			// jQuery script for smooth scrolling the page
+			$('.scroll').click(function() {
+			   var clicked = $(this).attr("href");
+			   var target = $(clicked).offset().top;
+			   $('html,body').animate({ scrollTop: target}, 500 );
+			   return false;
+			});
+
+			// jQuery script for the screenshots slider
+			$('#slider').nivoSlider({
+				effect: 'fade',
+				pauseTime: 4000,
+				directionNav: false,
+				slices: 1
+			});
+
+		});
+
+	</script> 
+
+</body>
+
+</html>

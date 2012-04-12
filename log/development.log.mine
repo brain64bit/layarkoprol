@@ -1,0 +1,3733 @@
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from process_request at /var/lib/passenger-standalone/3.0.5-x86-ruby1.8.7-linux-gcc4.4.5-1002/support/lib/phusion_passenger/rack/request_handler.rb:96)
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 14:57:02 +0700 2011
+
+Mysql2::Error (Unknown database 'layarkoprol_development'):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.9ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.3ms)
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (129.4ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36mSQL (1.4ms)[0m  [1mSHOW KEYS FROM `schema_migrations`[0m
+  [1m[35mSQL (234.4ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.9ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.8ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+
+
+Started GET "/" for 127.0.0.1 at Mon Aug 01 14:57:34 +0700 2011
+  Processing by PoiController#index as HTML
+Completed 500 Internal Server Error in 716ms
+
+ActionView::MissingTemplate (Missing template poi/index with {:locale=>[:en, :en], :handlers=>[:builder, :rxml, :erb, :rjs, :rhtml], :formats=>[:html]} in view paths "/home/agung/NetBeansProjects/layarkoprol/app/views"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (2.1ms)
+
+
+Started GET "/?id=49" for 127.0.0.1 at Mon Aug 01 14:57:50 +0700 2011
+  Processing by PoiController#index as HTML
+  Parameters: {"id"=>"49"}
+Completed 500 Internal Server Error in 1889ms
+
+ActionView::MissingTemplate (Missing template poi/index with {:locale=>[:en, :en], :handlers=>[:builder, :rxml, :erb, :rjs, :rhtml], :formats=>[:html]} in view paths "/home/agung/NetBeansProjects/layarkoprol/app/views"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started GET "/poi?id=2476" for 127.0.0.1 at Mon Aug 01 15:00:37 +0700 2011
+  Processing by PoiController#index as HTML
+  Parameters: {"id"=>"2476"}
+Completed 500 Internal Server Error in 3092ms
+
+ActionView::MissingTemplate (Missing template poi/index with {:locale=>[:en, :en], :handlers=>[:builder, :rxml, :erb, :rjs, :rhtml], :formats=>[:html]} in view paths "/home/agung/NetBeansProjects/layarkoprol/app/views"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (2.2ms)
+
+
+Started GET "/poi?id=2476" for 127.0.0.1 at Mon Aug 01 15:01:02 +0700 2011
+  Processing by PoiController#index as HTML
+  Parameters: {"id"=>"2476"}
+Completed 500 Internal Server Error in 7713ms
+
+NoMethodError (undefined method `model_name' for Net::HTTPOK:Class):
+  app/controllers/poi_controller.rb:6:in `index'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (20.3ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (38.5ms)
+
+
+Started GET "/poi?id=2476" for 127.0.0.1 at Mon Aug 01 15:05:22 +0700 2011
+  Processing by PoiController#index as HTML
+  Parameters: {"id"=>"2476"}
+Completed 500 Internal Server Error in 2517ms
+
+NoMethodError (undefined method `model_name' for Net::HTTPOK:Class):
+  app/controllers/poi_controller.rb:6:in `index'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (44.1ms)
+
+
+Started GET "/poi?id=2476" for 127.0.0.1 at Mon Aug 01 15:05:49 +0700 2011
+  Processing by PoiController#index as HTML
+  Parameters: {"id"=>"2476"}
+Completed 500 Internal Server Error in 1542ms
+
+ActionView::MissingTemplate (Missing template poi/{"place":{"name":"National Library","city":"Jakarta","address":"Jalan Salemba 27","parent_name":"Jakarta","lng":106.851831,"id":2476,"dislikes":3,"phone2":null,"phone":"","parent_id":1605,"web":"","place_type":"Residence","lat":-6.1986829,"distance":"","likes":18}} with {:locale=>[:en, :en], :handlers=>[:builder, :rxml, :erb, :rjs, :rhtml], :formats=>[:html]} in view paths "/home/agung/NetBeansProjects/layarkoprol/app/views"):
+  app/controllers/poi_controller.rb:6:in `index'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started GET "/poi?id=2476" for 127.0.0.1 at Mon Aug 01 15:07:22 +0700 2011
+  Processing by PoiController#index as HTML
+  Parameters: {"id"=>"2476"}
+Completed 406 Not Acceptable in 5284ms
+
+
+Started GET "/poi?id=2476" for 127.0.0.1 at Mon Aug 01 15:09:03 +0700 2011
+  Processing by PoiController#index as HTML
+  Parameters: {"id"=>"2476"}
+Completed 200 OK in 2909ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/place?id=2476" for 127.0.0.1 at Mon Aug 01 15:20:11 +0700 2011
+
+ActionController::RoutingError (No route matches "/place"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.9ms)
+
+
+Started GET "/poi/place?id=2476" for 127.0.0.1 at Mon Aug 01 15:20:25 +0700 2011
+  Processing by PoiController#index as HTML
+  Parameters: {"id"=>"2476"}
+Completed 404 Not Found in 3ms
+
+ActionController::RoutingError (No route matches {:controller=>"poi"}):
+  app/controllers/poi_controller.rb:3:in `index'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/place?id=2476" for 127.0.0.1 at Mon Aug 01 15:20:35 +0700 2011
+
+ActionController::RoutingError (No route matches "/place"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.9ms)
+
+
+Started GET "/poi/place?id=2476" for 127.0.0.1 at Mon Aug 01 15:20:51 +0700 2011
+  Processing by PoiController#place as HTML
+  Parameters: {"id"=>"2476"}
+Completed 200 OK in 3321ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/place?id=2476" for 127.0.0.1 at Mon Aug 01 15:21:11 +0700 2011
+  Processing by PoiController#place as HTML
+  Parameters: {"id"=>"2476"}
+Completed 200 OK in 2330ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Mon Aug 01 15:22:59 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 2223ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Mon Aug 01 15:24:05 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 3835ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446&page=2" for 127.0.0.1 at Mon Aug 01 15:24:25 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "page"=>"2", "lat"=>"-6.210357"}
+Completed 200 OK in 1762ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/place?id=2476" for 127.0.0.1 at Mon Aug 01 15:34:59 +0700 2011
+  Processing by PoiController#place as HTML
+  Parameters: {"id"=>"2476"}
+Completed 200 OK in 2172ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446&page=1" for 127.0.0.1 at Mon Aug 01 15:35:17 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "page"=>"1", "lat"=>"-6.210357"}
+Completed 200 OK in 1854ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:45:31 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 620ms
+
+NoMethodError (undefined method `empty' for #<Array:0xb63556a4>):
+  app/models/koprol_bridge.rb:27:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (24.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (50.1ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:45:46 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 663ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:34:in `[]'
+  app/models/koprol_bridge.rb:34:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.4ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:46:29 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 6723ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:34:in `[]'
+  app/models/koprol_bridge.rb:34:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.8ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:48:13 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 514ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:34:in `[]'
+  app/models/koprol_bridge.rb:34:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.2ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:50:29 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 569ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:37:in `[]'
+  app/models/koprol_bridge.rb:37:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (20.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (37.1ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:51:39 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 849ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:37:in `[]'
+  app/models/koprol_bridge.rb:37:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.7ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:52:44 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 422ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:34:in `[]'
+  app/models/koprol_bridge.rb:34:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.4ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:53:26 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 637ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:38:in `[]'
+  app/models/koprol_bridge.rb:38:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.3ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.8ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:54:04 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 567ms
+
+NameError (uninitialized constant KoprolBridge::JSON):
+  app/models/koprol_bridge.rb:33:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (16.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (14.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (49.6ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:54:56 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 442ms
+
+NameError (uninitialized constant KoprolBridge::JSON):
+  app/models/koprol_bridge.rb:33:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.1ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:55:49 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 22ms
+
+LoadError (no such file to load -- json):
+  app/models/koprol_bridge.rb:2
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:58:11 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 633ms
+
+JSON::GeneratorError (only generation of JSON objects or arrays allowed):
+  app/models/koprol_bridge.rb:33:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.3ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:58:29 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 371ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:38:in `[]'
+  app/models/koprol_bridge.rb:38:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (24.3ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (43.8ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:59:21 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 392ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:38:in `[]'
+  app/models/koprol_bridge.rb:38:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.3ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 11:59:52 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 576ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:31:in `[]'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.4ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:01:05 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+  [1m[36mSQL (26.9ms)[0m  [1mSHOW TABLES[0m
+Completed   in 452ms
+
+NoMethodError (undefined method `change_to_int_loc' for KoprolBridge(Table doesn't exist):Class):
+  app/models/koprol_bridge.rb:38:in `get_top_nearby'
+  app/models/koprol_bridge.rb:31:in `each'
+  app/models/koprol_bridge.rb:31:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.7ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:04:22 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 454ms (Views: 23.8ms | ActiveRecord: 26.9ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:06:13 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 402ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:25:in `[]'
+  app/models/koprol_bridge.rb:25:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (52.4ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:06:45 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 361ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:07:58 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 385ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:09:37 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 466ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:11:25 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+  [1m[36mSQL (1.1ms)[0m  [1mSHOW TABLES[0m
+Completed   in 399ms
+
+NoMethodError (undefined method `change_to_int_loc' for KoprolBridge(Table doesn't exist):Class):
+  app/models/koprol_bridge.rb:47:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (24.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (45.8ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:12:17 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+  [1m[35mSQL (0.9ms)[0m  SHOW TABLES
+Completed   in 366ms
+
+NoMethodError (undefined method `change_to_int_loc' for KoprolBridge(Table doesn't exist):Class):
+  app/models/koprol_bridge.rb:47:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.2ms)
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (45.4ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW TABLES[0m
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:14:26 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 398ms
+
+NoMethodError (undefined method `change_to_int_loc' for KoprolBridge:Class):
+  app/models/koprol_bridge.rb:47:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.8ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:24:18 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 394ms
+
+NoMethodError (undefined method `change_to_int_loc' for KoprolBridge:Class):
+  app/models/koprol_bridge.rb:47:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (25.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (48.3ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:25:01 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 402ms
+
+NoMethodError (undefined method `change_to_int' for KoprolBridge:Class):
+  app/models/koprol_bridge.rb:50:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (42.4ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:25:26 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 367ms
+
+NoMethodError (undefined method `mile_to_m' for KoprolBridge:Class):
+  app/models/koprol_bridge.rb:53:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (20.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.3ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:25:47 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 404ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]=):
+  app/models/koprol_bridge.rb:55:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (49.6ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:29:38 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 700ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]=):
+  app/models/koprol_bridge.rb:55:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (44.9ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:33:48 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 475ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:34:14 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 400ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:35:22 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 3553ms
+
+RuntimeError (--- 
+hotspots: 
+  9: 
+    lon: 106844907.983871
+    actions: []
+
+    type: 1
+    dimension: 1
+    lat: -6222507.5
+    distance: 1.361
+):
+  app/models/koprol_bridge.rb:59:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (25.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.4ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:35:48 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 573ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/koprol_bridge.rb:55:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.3ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (43.7ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 12:42:19 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 720ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/koprol_bridge.rb:56:in `get_top_nearby'
+  app/models/koprol_bridge.rb:39:in `each'
+  app/models/koprol_bridge.rb:39:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.1ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 13:05:05 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 499ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/koprol_bridge.rb:49:in `get_top_nearby'
+  app/models/koprol_bridge.rb:36:in `each'
+  app/models/koprol_bridge.rb:36:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (21.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.4ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 13:05:54 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 538ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.<<):
+  app/models/koprol_bridge.rb:50:in `get_top_nearby'
+  app/models/koprol_bridge.rb:36:in `each'
+  app/models/koprol_bridge.rb:36:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.9ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 13:06:48 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed   in 507ms
+
+RuntimeError (--- 
+errorCode: 0
+hotspots: 
+- lon: 106856427.36251
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6202746.1336294
+  distance: 1.481
+- lon: 106833000.183105
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6208000.18310547
+  distance: 1.401
+- lon: 106843092.441559
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6199968.20227451
+  distance: 1.191
+- lon: 106853778.362274
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6200117.52742032
+  distance: 1.471
+- lon: 106833000.183105
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6208000.18310547
+  distance: 1.401
+- lon: 106835067.272186
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6218569.52328844
+  distance: 1.471
+- lon: 106858352.661133
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6213257.78961182
+  distance: 1.471
+- lon: 106836204.528809
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6219721.41834104
+  distance: 1.461
+- lon: 106845001.220703
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6211540.22216797
+  distance: 0.14
+- lon: 106844907.983871
+  actions: []
+
+  type: 1
+  dimension: 1
+  lat: -6222507.5
+  distance: 1.361
+errorString: ok
+):
+  app/models/koprol_bridge.rb:55:in `get_top_nearby'
+  app/controllers/poi_controller.rb:18:in `top_nearby'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.9ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 13:07:04 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 541ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 13:07:43 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 531ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 13:11:46 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 439ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 13:14:08 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 540ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 13:15:32 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 402ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/top_nearby?lat=-6.210357&lng=106.845446" for 127.0.0.1 at Tue Aug 02 13:19:16 +0700 2011
+  Processing by PoiController#top_nearby as HTML
+  Parameters: {"lng"=>"106.845446", "lat"=>"-6.210357"}
+Completed 200 OK in 997ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lng=106.816792&RADIOLIST=2" for 127.0.0.1 at Tue Aug 02 22:46:56 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"RADIOLIST"=>"2", "lng"=>"106.816792", "lat"=>"-6.227593"}
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lng=106.816792&RADIOLIST=2" for 127.0.0.1 at Tue Aug 02 22:48:43 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"RADIOLIST"=>"2", "lng"=>"106.816792", "lat"=>"-6.227593"}
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lng=106.816792&RADIOLIST=2" for 127.0.0.1 at Tue Aug 02 22:50:28 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"RADIOLIST"=>"2", "lng"=>"106.816792", "lat"=>"-6.227593"}
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lng=106.816792&RADIOLIST=1" for 127.0.0.1 at Tue Aug 02 22:50:43 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"RADIOLIST"=>"1", "lng"=>"106.816792", "lat"=>"-6.227593"}
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=1" for 127.0.0.1 at Tue Aug 02 22:51:08 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"1", "lat"=>"-6.227593"}
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=1" for 127.0.0.1 at Tue Aug 02 22:54:27 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"1", "lat"=>"-6.227593"}
+Completed   in 2ms
+
+RuntimeError (--- 
+):
+  app/controllers/poi_controller.rb:52:in `action'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (24.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (45.8ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=1" for 127.0.0.1 at Tue Aug 02 22:55:01 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"1", "lat"=>"-6.227593"}
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+Completed   in 501ms
+
+NoMethodError (undefined method `km_to_m' for KoprolBridge(Table doesn't exist):Class):
+  app/models/koprol_bridge.rb:50:in `get_top_nearby'
+  app/models/koprol_bridge.rb:38:in `each'
+  app/models/koprol_bridge.rb:38:in `get_top_nearby'
+  app/controllers/poi_controller.rb:42:in `action'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (42.6ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=1" for 127.0.0.1 at Tue Aug 02 22:55:33 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"1", "lat"=>"-6.227593"}
+Completed 200 OK in 543ms (Views: 2.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=2" for 127.0.0.1 at Tue Aug 02 22:55:42 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed   in 818ms
+
+RuntimeError (--- []
+
+):
+  app/models/koprol_bridge.rb:66:in `get_nearby_streams'
+  app/controllers/poi_controller.rb:45:in `action'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (129.3ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (146.3ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792" for 127.0.0.1 at Tue Aug 02 22:57:02 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "lat"=>"-6.227593"}
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=1" for 127.0.0.1 at Tue Aug 02 23:00:23 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"1", "lat"=>"-6.227593"}
+Completed 200 OK in 10007ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=2" for 127.0.0.1 at Tue Aug 02 23:00:42 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed   in 654ms
+
+RuntimeError (--- []
+
+):
+  app/models/koprol_bridge.rb:66:in `get_nearby_streams'
+  app/controllers/poi_controller.rb:45:in `action'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.7ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=2" for 127.0.0.1 at Tue Aug 02 23:01:02 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed   in 909ms
+
+RuntimeError (--- 
+- - places
+  - - place: 
+        address: Jl. Gatot Subroto Kav. 14-16 - Mampang Prapatan - Jakarta Selatan
+        city: Jakarta
+        name: Taman Satria Mandala
+        parent_name: Jakarta
+        dislikes: 0
+        id: 155589
+        lng: 106.817171573639
+        phone2: ""
+        parent_id: 2
+        phone: +62-21-5367-1994
+        lat: -6.22742198522573
+        place_type: Education
+        web: ""
+        likes: 0
+        distance: "0.05"
+    - place: 
+        address: Jl. Jend. Gatot Subroto 44, Senayan
+        city: Jakarta
+        name: BKPM
+        parent_name: Jakarta
+        dislikes: 0
+        id: 4538
+        lng: 106.816506385803
+        phone2: 
+        parent_id: 1412
+        phone: +62-21-5252008
+        lat: -6.22637676254659
+        place_type: Office
+        web: www.bkpm.go.id
+        likes: 7
+        distance: "0.14"
+    - place: 
+        address: Jl. Gatot Subroto No. 10
+        city: Jakarta
+        name: LIPI
+        parent_name: Jakarta
+        dislikes: 0
+        id: 106948
+        lng: 106.81768655777
+        phone2: ""
+        parent_id: 2
+        phone: ""
+        lat: -6.22872317789852
+        place_type: Office
+        web: www.lipi.go.id
+        likes: 1
+        distance: "0.16"
+    - place: 
+        address: Jl. Jend. Gatot Subroto Kav. 4
+        city: Jakarta
+        name: Gedung Yamaha
+        parent_name: Jakarta
+        dislikes: 0
+        id: 7112
+        lng: 106.817148
+        phone2: 
+        parent_id: 7036
+        phone: ""
+        lat: -6.226067
+        place_type: Office
+        web: ""
+        likes: 1
+        distance: "0.17"
+    - place: 
+        address: " Jl Gatot Subroto Kav 16 , Kartika Chandra"
+        city: Jakarta
+        name: Planet Hollywood
+        parent_name: Jakarta
+        dislikes: 1
+        id: 1816
+        lng: 106.817965507507
+        phone2: 
+        parent_id: 3702
+        phone: ""
+        lat: -6.22637676254659
+        place_type: Food
+        web: ""
+        likes: 15
+        distance: "0.19"
+    - place: 
+        address: " Kartika Chandra"
+        city: Jakarta
+        name: Hollywood KC 21
+        parent_name: Jakarta
+        dislikes: 2
+        id: 4726
+        lng: 106.817965507507
+        phone2: 
+        parent_id: 3702
+        phone: +62-21-525-6351
+        lat: -6.22637676254659
+        place_type: Arts & Entertainment
+        web: ""
+        likes: 28
+        distance: "0.19"
+    - place: 
+        address: Jl. Jend Gatot Subroto - Kav. 10 - Jakarta Selatan
+        city: Jakarta
+        name: Widya Graha
+        parent_name: Jakarta
+        dislikes: 0
+        id: 129372
+        lng: 106.818017140031
+        phone2: ""
+        parent_id: 2
+        phone: ""
+        lat: -6.22879050386607
+        place_type: Office
+        web: ""
+        likes: 3
+        distance: "0.19"
+    - place: 
+        address: Jl. Jend. Gatot Subroto Kav. 15. Jakarta 12930
+        city: Jakarta
+        name: Gedung Unilever
+        parent_name: Jakarta
+        dislikes: 0
+        id: 13191
+        lng: 106.818222999573
+        phone2: ""
+        parent_id: 2
+        phone: (021) 526-2112
+        lat: -6.22656874237832
+        place_type: Office
+        web: www.unilever.co.id
+        likes: 0
+        distance: "0.20"
+    - place: 
+        address: "Graha Mustika Ratu Jl Gatot Subroto Kav 74-75 Jakarta Selatan  "
+        city: Jakarta
+        name: Persatuan Putri Indonesia
+        parent_name: Jakarta
+        dislikes: 0
+        id: 107020
+        lng: 106.8182310462
+        phone2: 085654287734
+        parent_id: 2
+        phone: 0221-8306566
+        lat: -6.22644875499171
+        place_type: Arts & Entertainment
+        web: puteri-indonesia.com/web/
+        likes: 1
+        distance: "0.20"
+    - place: 
+        address: " Jl. Jend. Gatot Subroto Kav. 15"
+        city: Jakarta
+        name: Graha Unilever
+        parent_name: Jakarta
+        dislikes: 0
+        id: 2551
+        lng: 106.818239
+        phone2: 
+        parent_id: 7036
+        phone: ""
+        lat: -6.226411
+        place_type: Office
+        web: ""
+        likes: 0
+        distance: "0.21"
+    - place: 
+        address: " Kebayoran Baru"
+        city: Jakarta
+        name: Widya Chandra
+        parent_name: Jakarta
+        dislikes: 0
+        id: 4539
+        lng: 106.815347
+        phone2: 
+        parent_id: 611
+        phone: ""
+        lat: -6.228872
+        place_type: Area
+        web: ""
+        likes: 1
+        distance: "0.21"
+    - place: 
+        address: Jl. Gatot Subroto Kav. 40-42
+        city: Jakarta
+        name: Kantor Pusat Ditjen Pajak
+        parent_name: Jakarta
+        dislikes: 1
+        id: 9292
+        lng: 106.815776824951
+        phone2: 
+        parent_id: 7036
+        phone: +62-21-500200
+        lat: -6.22577949151018
+        place_type: Public Facilities
+        web: http://www.pajak.go.id
+        likes: 24
+        distance: "0.23"
+    - place: 
+        address: Jl. Jend. Gatot Subroto Kav. 18-20
+        city: Jakarta
+        name: Hotel Kartika Chandra
+        parent_name: Jakarta
+        dislikes: 1
+        id: 3702
+        lng: 106.81889598788
+        phone2: ""
+        parent_id: 7036
+        phone: +62-21-5251008
+        lat: -6.2272698428061
+        place_type: Hotel & Travel
+        web: www.kartikachandra.com
+        likes: 1
+        distance: "0.24"
+    - place: 
+        address: " Kartika Chandra"
+        city: Jakarta
+        name: Hoka Hoka Bento
+        parent_name: Jakarta
+        dislikes: 0
+        id: 3748
+        lng: 106.81889598788
+        phone2: 
+        parent_id: 3702
+        phone: ""
+        lat: -6.2272698428061
+        place_type: Food
+        web: ""
+        likes: 1
+        distance: "0.24"
+    - place: 
+        address: JL Gatot Subroto kav 12-13
+        city: Jakarta
+        name: Tunas Artha Gardatama
+        parent_name: Jakarta
+        dislikes: 0
+        id: 43597
+        lng: 106.817281544209
+        phone2: ""
+        parent_id: 2
+        phone: ""
+        lat: -6.2253542021216
+        place_type: Office
+        web: www.tag.co.id
+        likes: 0
+        distance: "0.26"
+    - place: 
+        address: Gedung Putra Kalimantan Lantai 7 Jl. Jend Gatot Subroto Kav 12-13
+        city: Jakarta
+        name: Japan Transportation Consultant
+        parent_name: Jakarta
+        dislikes: 0
+        id: 166267
+        lng: 106.817254722119
+        phone2: +62-21-5276114
+        parent_id: 2
+        phone: +62-21-5222989
+        lat: -6.22523821404676
+        place_type: Office
+        web: ""
+        likes: 1
+        distance: "0.27"
+    - place: 
+        address: Jl. Jend. Gatot Subroto - Jakarta
+        city: Jakarta
+        name: Gatot Subroto
+        parent_name: Jakarta
+        dislikes: 1
+        id: 7036
+        lng: 106.818909645081
+        phone2: ""
+        parent_id: 2
+        phone: ""
+        lat: -6.22912846676086
+        place_type: Area
+        web: ""
+        likes: 9
+        distance: "0.29"
+    - place: 
+        address: Jl. Jenderal Gatot Subroto No. 40-42, Jakarta Selatan 12190
+        city: Jakarta
+        name: Kantor Pusat Direktorat Jenderal Pajak
+        parent_name: Jakarta
+        dislikes: 2
+        id: 98547
+        lng: 106.815884113312
+        phone2: +62-21-5250208
+        parent_id: 2
+        phone: +62-21-500200
+        lat: -6.22513955750318
+        place_type: Office
+        web: www.pajak.go.id
+        likes: 4
+        distance: "0.29"
+    - place: 
+        address: Jl. Jendral Gatot Subroto Kav. 18-20 - Kartika Chandra Hotel - Setiabudi
+        city: Jakarta
+        name: Alfons Hair Beauty
+        parent_name: Jakarta
+        dislikes: 0
+        id: 146087
+        lng: 106.819553375244
+        phone2: ""
+        parent_id: 2
+        phone: +62-21-2500323
+        lat: -6.2281472405559
+        place_type: Shops
+        web: ""
+        likes: 1
+        distance: "0.31"
+    - place: 
+        address: "Jl. Gatot Subroto Kav 2-3 crown plaza, Jakarta Selatan 12930 "
+        city: Jakarta
+        name: "Akane Tokyo Cuisine Restaurant "
+        parent_name: Jakarta
+        dislikes: 0
+        id: 97125
+        lng: 106.816313266754
+        phone2: ""
+        parent_id: 2
+        phone: ""
+        lat: -6.22471293439872
+        place_type: Food
+        web: ""
+        likes: 2
+        distance: "0.33"
+):
+  app/models/koprol_bridge.rb:66:in `get_nearby_streams'
+  app/controllers/poi_controller.rb:45:in `action'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.3ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=2" for 127.0.0.1 at Tue Aug 02 23:01:46 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed   in 1290ms
+
+RuntimeError (--- 
+- - streams
+  - - stream: 
+        permalink: /s/1fqQX
+        bump_counter: 0
+        body: "#AcakLagu [atok nsitra] gigi - pintu sorga, poin: 11"
+        photo_url: ""
+        original_place: 
+        id: 24749317
+        type_stream: 100
+        date: Tue Aug 02 15:59:55 GMT 2011
+        privacy_type: 0
+        original_user: 
+        full_photo_url: ""
+        original_date: 
+        comments_count: 1
+        comments_counter: 1
+        place: 
+          address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+          city: Jakarta
+          name: Pacific Place
+          parent_name: Jakarta
+          dislikes: 18
+          id: 901
+          lng: 106.809811592102
+          phone2: ""
+          parent_id: 2016
+          phone: +62-21-5152299
+          lat: -6.22477692788647
+          place_type: Shops
+          web: http://www.pacificplace.co.id
+          likes: 90
+          distance: ""
+        user: 
+          avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          dob: Feb 06, 1997
+          username: tebaklagu
+          fullname: tebaklagu
+          account_type: 0
+          gender: m
+          full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          hometown: blog.ardwort.com
+          description: tebak lagu
+          age: 14
+    - stream: 
+        permalink: /s/1fqP1
+        bump_counter: 0
+        body: "#AcakLagu [aggkn eslja] wayang - perbedaan, poin: 11"
+        photo_url: ""
+        original_place: 
+        id: 24749223
+        type_stream: 100
+        date: Tue Aug 02 15:55:07 GMT 2011
+        privacy_type: 0
+        original_user: 
+        full_photo_url: ""
+        original_date: 
+        comments_count: 3
+        comments_counter: 3
+        place: 
+          address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+          city: Jakarta
+          name: Pacific Place
+          parent_name: Jakarta
+          dislikes: 18
+          id: 901
+          lng: 106.809811592102
+          phone2: ""
+          parent_id: 2016
+          phone: +62-21-5152299
+          lat: -6.22477692788647
+          place_type: Shops
+          web: http://www.pacificplace.co.id
+          likes: 90
+          distance: ""
+        user: 
+          avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          dob: Feb 06, 1997
+          username: tebaklagu
+          fullname: tebaklagu
+          account_type: 0
+          gender: m
+          full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          hometown: blog.ardwort.com
+          description: tebak lagu
+          age: 14
+    - stream: 
+        permalink: /s/1fqO1
+        bump_counter: 0
+        body: "#AcakLagu [anbetrg ahju] grace simon - jantan, poin: 12"
+        photo_url: ""
+        original_place: 
+        id: 24749161
+        type_stream: 100
+        date: Tue Aug 02 15:50:57 GMT 2011
+        privacy_type: 0
+        original_user: 
+        full_photo_url: ""
+        original_date: 
+        comments_count: 2
+        comments_counter: 2
+        place: 
+          address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+          city: Jakarta
+          name: Pacific Place
+          parent_name: Jakarta
+          dislikes: 18
+          id: 901
+          lng: 106.809811592102
+          phone2: ""
+          parent_id: 2016
+          phone: +62-21-5152299
+          lat: -6.22477692788647
+          place_type: Shops
+          web: http://www.pacificplace.co.id
+          likes: 90
+          distance: ""
+        user: 
+          avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          dob: Feb 06, 1997
+          username: tebaklagu
+          fullname: tebaklagu
+          account_type: 0
+          gender: m
+          full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          hometown: blog.ardwort.com
+          description: tebak lagu
+          age: 14
+    - stream: 
+        permalink: /s/1fqM4
+        bump_counter: 0
+        body: "#AcakLagu [uka gktnuuug] nani sugianto - bagai cermin yang retak, poin: 12"
+        photo_url: ""
+        original_place: 
+        id: 24749040
+        type_stream: 100
+        date: Tue Aug 02 15:45:01 GMT 2011
+        privacy_type: 0
+        original_user: 
+        full_photo_url: ""
+        original_date: 
+        comments_count: 2
+        comments_counter: 2
+        place: 
+          address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+          city: Jakarta
+          name: Pacific Place
+          parent_name: Jakarta
+          dislikes: 18
+          id: 901
+          lng: 106.809811592102
+          phone2: ""
+          parent_id: 2016
+          phone: +62-21-5152299
+          lat: -6.22477692788647
+          place_type: Shops
+          web: http://www.pacificplace.co.id
+          likes: 90
+          distance: ""
+        user: 
+          avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          dob: Feb 06, 1997
+          username: tebaklagu
+          fullname: tebaklagu
+          account_type: 0
+          gender: m
+          full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          hometown: blog.ardwort.com
+          description: tebak lagu
+          age: 14
+    - stream: 
+        permalink: /s/1fqKm
+        bump_counter: 0
+        body: "#AcakLagu [anngja kaspa] angeliq - pertama, poin: 12"
+        photo_url: ""
+        original_place: 
+        id: 24748960
+        type_stream: 100
+        date: Tue Aug 02 15:41:27 GMT 2011
+        privacy_type: 0
+        original_user: 
+        full_photo_url: ""
+        original_date: 
+        comments_count: 2
+        comments_counter: 2
+        place: 
+          address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+          city: Jakarta
+          name: Pacific Place
+          parent_name: Jakarta
+          dislikes: 18
+          id: 901
+          lng: 106.809811592102
+          phone2: ""
+          parent_id: 2016
+          phone: +62-21-5152299
+          lat: -6.22477692788647
+          place_type: Shops
+          web: http://www.pacificplace.co.id
+          likes: 90
+          distance: ""
+        user: 
+          avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          dob: Feb 06, 1997
+          username: tebaklagu
+          fullname: tebaklagu
+          account_type: 0
+          gender: m
+          full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          hometown: blog.ardwort.com
+          description: tebak lagu
+          age: 14
+    - stream: 
+        permalink: /s/1fqJQ
+        bump_counter: 0
+        body: "#AcakLagu [kaij] kangen band - yang sempurna, poin: 4"
+        photo_url: ""
+        original_place: 
+        id: 24748876
+        type_stream: 100
+        date: Tue Aug 02 15:37:52 GMT 2011
+        privacy_type: 0
+        original_user: 
+        full_photo_url: ""
+        original_date: 
+        comments_count: 2
+        comments_counter: 2
+        place: 
+          address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+          city: Jakarta
+          name: Pacific Place
+          parent_name: Jakarta
+          dislikes: 18
+          id: 901
+          lng: 106.809811592102
+          phone2: ""
+          parent_id: 2016
+          phone: +62-21-5152299
+          lat: -6.22477692788647
+          place_type: Shops
+          web: http://www.pacificplace.co.id
+          likes: 90
+          distance: ""
+        user: 
+          avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          dob: Feb 06, 1997
+          username: tebaklagu
+          fullname: tebaklagu
+          account_type: 0
+          gender: m
+          full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          hometown: blog.ardwort.com
+          description: tebak lagu
+          age: 14
+    - stream: 
+        permalink: /s/1fqIA
+        bump_counter: 0
+        body: "#AcakLagu [akflih] ebiet g. ade - album 8 (85 - 86), poin: 6"
+        photo_url: ""
+        original_place: 
+        id: 24748798
+        type_stream: 100
+        date: Tue Aug 02 15:34:17 GMT 2011
+        privacy_type: 0
+        original_user: 
+        full_photo_url: ""
+        original_date: 
+        comments_count: 3
+        comments_counter: 3
+        place: 
+          address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+          city: Jakarta
+          name: Pacific Place
+          parent_name: Jakarta
+          dislikes: 18
+          id: 901
+          lng: 106.809811592102
+          phone2: ""
+          parent_id: 2016
+          phone: +62-21-5152299
+          lat: -6.22477692788647
+          place_type: Shops
+          web: http://www.pacificplace.co.id
+          likes: 90
+          distance: ""
+        user: 
+          avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          dob: Feb 06, 1997
+          username: tebaklagu
+          fullname: tebaklagu
+          account_type: 0
+          gender: m
+          full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          hometown: blog.ardwort.com
+          description: tebak lagu
+          age: 14
+    - stream: 
+        permalink: /s/1fqH5
+        bump_counter: 0
+        body: "#AcakLagu [auts akat] bibus - love love love, poin: 9"
+        photo_url: ""
+        original_place: 
+        id: 24748731
+        type_stream: 100
+        date: Tue Aug 02 15:30:42 GMT 2011
+        privacy_type: 0
+        original_user: 
+        full_photo_url: ""
+        original_date: 
+        comments_count: 1
+        comments_counter: 1
+        place: 
+          address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+          city: Jakarta
+          name: Pacific Place
+          parent_name: Jakarta
+          dislikes: 18
+          id: 901
+          lng: 106.809811592102
+          phone2: ""
+          parent_id: 2016
+          phone: +62-21-5152299
+          lat: -6.22477692788647
+          place_type: Shops
+          web: http://www.pacificplace.co.id
+          likes: 90
+          distance: ""
+        user: 
+          avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          dob: Feb 06, 1997
+          username: tebaklagu
+          fullname: tebaklagu
+          account_type: 0
+          gender: m
+          full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          hometown: blog.ardwort.com
+          description: tebak lagu
+          age: 14
+    - stream: 
+        permalink: /s/1fqG0
+        bump_counter: 0
+        body: "#AcakLagu [1ts rnwnei & ovetrifa ogsn yatan thai] fazario - fulltrek karaoke contest winners, poin: 37"
+        photo_url: ""
+        original_place: 
+        id: 24748664
+        type_stream: 100
+        date: Tue Aug 02 15:27:40 GMT 2011
+        privacy_type: 0
+        original_user: 
+        full_photo_url: ""
+        original_date: 
+        comments_count: 2
+        comments_counter: 2
+        place: 
+          address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+          city: Jakarta
+          name: Pacific Place
+          parent_name: Jakarta
+          dislikes: 18
+          id: 901
+          lng: 106.809811592102
+          phone2: ""
+          parent_id: 2016
+          phone: +62-21-5152299
+          lat: -6.22477692788647
+          place_type: Shops
+          web: http://www.pacificplace.co.id
+          likes: 90
+          distance: ""
+        user: 
+          avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          dob: Feb 06, 1997
+          username: tebaklagu
+          fullname: tebaklagu
+          account_type: 0
+          gender: m
+          full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          hometown: blog.ardwort.com
+          description: tebak lagu
+          age: 14
+    - stream: 
+        permalink: /s/1fqEt
+        bump_counter: 0
+        body: "#AcakLagu [kuat okrc icty] superman is dead - kuta rock city, poin: 14"
+        photo_url: ""
+        original_place: 
+        id: 24748595
+        type_stream: 100
+        date: Tue Aug 02 15:24:06 GMT 2011
+        privacy_type: 0
+        original_user: 
+        full_photo_url: ""
+        original_date: 
+        comments_count: 3
+        comments_counter: 3
+        place: 
+          address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+          city: Jakarta
+          name: Pacific Place
+          parent_name: Jakarta
+          dislikes: 18
+          id: 901
+          lng: 106.809811592102
+          phone2: ""
+          parent_id: 2016
+          phone: +62-21-5152299
+          lat: -6.22477692788647
+          place_type: Shops
+          web: http://www.pacificplace.co.id
+          likes: 90
+          distance: ""
+        user: 
+          avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          dob: Feb 06, 1997
+          username: tebaklagu
+          fullname: tebaklagu
+          account_type: 0
+          gender: m
+          full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+          hometown: blog.ardwort.com
+          description: tebak lagu
+          age: 14
+):
+  app/models/koprol_bridge.rb:66:in `get_nearby_streams'
+  app/controllers/poi_controller.rb:45:in `action'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.6ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=2" for 127.0.0.1 at Tue Aug 02 23:02:05 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed   in 1254ms
+
+RuntimeError (--- 
+- stream: 
+    permalink: /s/1fqQX
+    bump_counter: 0
+    body: "#AcakLagu [atok nsitra] gigi - pintu sorga, poin: 11"
+    photo_url: ""
+    id: 24749317
+    type_stream: 100
+    date: Tue Aug 02 15:59:55 GMT 2011
+    original_place: 
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 1
+    comments_counter: 1
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fqP1
+    bump_counter: 0
+    body: "#AcakLagu [aggkn eslja] wayang - perbedaan, poin: 11"
+    photo_url: ""
+    id: 24749223
+    type_stream: 100
+    date: Tue Aug 02 15:55:07 GMT 2011
+    original_place: 
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 3
+    comments_counter: 3
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fqO1
+    bump_counter: 0
+    body: "#AcakLagu [anbetrg ahju] grace simon - jantan, poin: 12"
+    photo_url: ""
+    id: 24749161
+    type_stream: 100
+    date: Tue Aug 02 15:50:57 GMT 2011
+    original_place: 
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 2
+    comments_counter: 2
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fqM4
+    bump_counter: 0
+    body: "#AcakLagu [uka gktnuuug] nani sugianto - bagai cermin yang retak, poin: 12"
+    photo_url: ""
+    id: 24749040
+    type_stream: 100
+    date: Tue Aug 02 15:45:01 GMT 2011
+    original_place: 
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 2
+    comments_counter: 2
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fqKm
+    bump_counter: 0
+    body: "#AcakLagu [anngja kaspa] angeliq - pertama, poin: 12"
+    photo_url: ""
+    id: 24748960
+    type_stream: 100
+    date: Tue Aug 02 15:41:27 GMT 2011
+    original_place: 
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 2
+    comments_counter: 2
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fqJQ
+    bump_counter: 0
+    body: "#AcakLagu [kaij] kangen band - yang sempurna, poin: 4"
+    photo_url: ""
+    id: 24748876
+    type_stream: 100
+    date: Tue Aug 02 15:37:52 GMT 2011
+    original_place: 
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 2
+    comments_counter: 2
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fqIA
+    bump_counter: 0
+    body: "#AcakLagu [akflih] ebiet g. ade - album 8 (85 - 86), poin: 6"
+    photo_url: ""
+    id: 24748798
+    type_stream: 100
+    date: Tue Aug 02 15:34:17 GMT 2011
+    original_place: 
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 3
+    comments_counter: 3
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fqH5
+    bump_counter: 0
+    body: "#AcakLagu [auts akat] bibus - love love love, poin: 9"
+    photo_url: ""
+    id: 24748731
+    type_stream: 100
+    date: Tue Aug 02 15:30:42 GMT 2011
+    original_place: 
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 1
+    comments_counter: 1
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fqG0
+    bump_counter: 0
+    body: "#AcakLagu [1ts rnwnei & ovetrifa ogsn yatan thai] fazario - fulltrek karaoke contest winners, poin: 37"
+    photo_url: ""
+    id: 24748664
+    type_stream: 100
+    date: Tue Aug 02 15:27:40 GMT 2011
+    original_place: 
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 2
+    comments_counter: 2
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fqEt
+    bump_counter: 0
+    body: "#AcakLagu [kuat okrc icty] superman is dead - kuta rock city, poin: 14"
+    photo_url: ""
+    id: 24748595
+    type_stream: 100
+    date: Tue Aug 02 15:24:06 GMT 2011
+    original_place: 
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 3
+    comments_counter: 3
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+):
+  app/models/koprol_bridge.rb:66:in `get_nearby_streams'
+  app/controllers/poi_controller.rb:45:in `action'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.3ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.7ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 09:27:56 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed   in 7958ms
+
+RuntimeError (--- 
+- stream: 
+    permalink: /s/1fse0
+    bump_counter: 0
+    body: "#AcakLagu [aopkk apacnar] jamal mirdad - baru 5 menit, poin: 13"
+    photo_url: ""
+    id: 24757840
+    type_stream: 100
+    date: Wed Aug 03 02:27:06 GMT 2011
+    original_place: 
+    privacy_type: 0
+    full_photo_url: ""
+    original_user: 
+    comments_counter: 2
+    comments_count: 2
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fscY
+    bump_counter: 0
+    body: "#AcakLagu [dai] ihsan - idola terdahsyat, poin: 3"
+    photo_url: ""
+    id: 24757750
+    type_stream: 100
+    date: Wed Aug 03 02:23:31 GMT 2011
+    original_place: 
+    privacy_type: 0
+    full_photo_url: ""
+    original_user: 
+    comments_counter: 5
+    comments_count: 5
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fsbt
+    bump_counter: 0
+    body: skor tertinggi selasa 02-08-2011 @unchu=475 @izoelbbc=447 @coffmild_girl=355 @iffahiff=322 @pulsa_murah=299
+    photo_url: ""
+    id: 24757709
+    type_stream: 100
+    date: Wed Aug 03 02:22:02 GMT 2011
+    original_place: 
+    privacy_type: 0
+    full_photo_url: ""
+    original_user: 
+    comments_counter: 0
+    comments_count: 0
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fsb4
+    bump_counter: 0
+    body: "#AcakLagu [ada gnya akt ammpu ukapul] ebiet g. ade - album camellia 3, poin: 25"
+    photo_url: ""
+    id: 24757658
+    type_stream: 100
+    date: Wed Aug 03 02:19:40 GMT 2011
+    original_place: 
+    privacy_type: 0
+    full_photo_url: ""
+    original_user: 
+    comments_counter: 4
+    comments_count: 4
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fsaV
+    bump_counter: 0
+    body: 5 anak gaul dengan skor paling tinggi @unchu=51881 @coffmild_girl=45389 @ifawithmusic=40853 @yati_zaa=39350 @izoelbbc=29380
+    photo_url: ""
+    id: 24757623
+    type_stream: 100
+    date: Wed Aug 03 02:18:27 GMT 2011
+    original_place: 
+    privacy_type: 0
+    full_photo_url: ""
+    original_user: 
+    comments_counter: 0
+    comments_count: 0
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fsZf
+    bump_counter: 0
+    body: "#AcakLagu [aaakhnpk mdiaa] gigs - ost. dealova, poin: 14"
+    photo_url: ""
+    id: 24757571
+    type_stream: 100
+    date: Wed Aug 03 02:16:05 GMT 2011
+    original_place: 
+    privacy_type: 0
+    full_photo_url: ""
+    original_user: 
+    comments_counter: 3
+    comments_count: 3
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fsYU
+    bump_counter: 0
+    body: "#AcakLagu [eilbsaas] search - tangisan issabela dari negeri seberang, poin: 8"
+    photo_url: ""
+    id: 24757498
+    type_stream: 100
+    date: Wed Aug 03 02:12:30 GMT 2011
+    original_place: 
+    privacy_type: 0
+    full_photo_url: ""
+    original_user: 
+    comments_counter: 6
+    comments_count: 6
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fsXG
+    bump_counter: 0
+    body: "#AcakLagu [aanrke uak teisa] sheila on 7 - kisah klasik untuk masa depan, poin: 16"
+    photo_url: ""
+    id: 24757422
+    type_stream: 100
+    date: Wed Aug 03 02:08:56 GMT 2011
+    original_place: 
+    privacy_type: 0
+    full_photo_url: ""
+    original_user: 
+    comments_counter: 5
+    comments_count: 5
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fsVX
+    bump_counter: 0
+    body: "#AcakLagu [shaal] omelette - cuma kamu, poin: 5"
+    photo_url: ""
+    id: 24757315
+    type_stream: 100
+    date: Wed Aug 03 02:05:21 GMT 2011
+    original_place: 
+    privacy_type: 0
+    full_photo_url: ""
+    original_user: 
+    comments_counter: 4
+    comments_count: 4
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fsU0
+    bump_counter: 0
+    body: "#AcakLagu [abpa driukun] lorenty - hgsc5 dewasa, poin: 12"
+    photo_url: ""
+    id: 24757220
+    type_stream: 100
+    date: Wed Aug 03 02:01:47 GMT 2011
+    original_place: 
+    privacy_type: 0
+    full_photo_url: ""
+    original_user: 
+    comments_counter: 5
+    comments_count: 5
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+):
+  app/models/koprol_bridge.rb:66:in `get_nearby_streams'
+  app/controllers/poi_controller.rb:45:in `action'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (23.3ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (44.5ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=1" for 127.0.0.1 at Wed Aug 03 09:38:47 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"1", "lat"=>"-6.227593"}
+Completed 200 OK in 505ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=0&lon=0&RADIOLIST=1" for 127.0.0.1 at Wed Aug 03 09:57:51 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"0", "RADIOLIST"=>"1", "lat"=>"0"}
+Completed 200 OK in 353ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=s0&lon=s0&RADIOLIST=1" for 127.0.0.1 at Wed Aug 03 09:58:03 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"s0", "RADIOLIST"=>"1", "lat"=>"s0"}
+Completed 200 OK in 283ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 10:17:44 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed 200 OK in 945ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 10:18:12 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed   in 894ms
+
+RuntimeError ([{"stream":{"permalink":"/s/1fssp","bump_counter":0,"body":"#AcakLagu [heoyhoa] t - five - back to back, poin: 7","photo_url":"","original_place":null,"id":24758759,"type_stream":100,"date":"Wed Aug 03 03:07:21 GMT 2011","privacy_type":0,"original_user":null,"full_photo_url":"","comments_count":0,"comments_counter":0,"original_date":null,"place":{"name":"Pacific Place","city":"Jakarta","address":"Jl. Jend. Sudirman Kav. 52-53, SCBD","parent_name":"Jakarta","lng":106.809811592102,"id":901,"dislikes":18,"phone2":"","phone":"+62-21-5152299","parent_id":2016,"web":"http://www.pacificplace.co.id","place_type":"Shops","lat":-6.22477692788647,"distance":"","likes":90},"user":{"avatar_url":"/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg","dob":"Feb 06, 1997","fullname":"tebaklagu","username":"tebaklagu","gender":"m","account_type":0,"full_avatar_url":"http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg","description":"tebak lagu","hometown":"blog.ardwort.com","age":14}}},{"stream":{"permalink":"/s/1fsrV","bump_counter":0,"body":"#AcakLagu [mpngaae mtrlaeabt] kahitna - soulmate, poin: 17","photo_url":"","original_place":null,"id":24758677,"type_stream":100,"date":"Wed Aug 03 03:03:46 GMT 2011","privacy_type":0,"original_user":null,"full_photo_url":"","comments_count":4,"comments_counter":4,"original_date":null,"place":{"name":"Pacific Place","city":"Jakarta","address":"Jl. Jend. Sudirman Kav. 52-53, SCBD","parent_name":"Jakarta","lng":106.809811592102,"id":901,"dislikes":18,"phone2":"","phone":"+62-21-5152299","parent_id":2016,"web":"http://www.pacificplace.co.id","place_type":"Shops","lat":-6.22477692788647,"distance":"","likes":90},"user":{"avatar_url":"/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg","dob":"Feb 06, 1997","fullname":"tebaklagu","username":"tebaklagu","gender":"m","account_type":0,"full_avatar_url":"http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg","description":"tebak lagu","hometown":"blog.ardwort.com","age":14}}},{"stream":{"permalink":"/s/1fsqn","bump_counter":0,"body":"Morning work","photo_url":"","original_place":null,"id":24758633,"type_stream":100,"date":"Wed Aug 03 03:01:44 GMT 2011","privacy_type":0,"original_user":null,"full_photo_url":"","comments_count":0,"comments_counter":0,"original_date":null,"place":{"name":"Menara Mulia","city":"Jakarta","address":"JL. Jend. Gatot Subroto Kav.9-11 ","parent_name":"Jakarta","lng":106.817001342773,"id":894,"dislikes":3,"phone2":null,"phone":"","parent_id":7036,"web":"","place_type":"Office","lat":-6.22431993484497,"distance":"","likes":20},"user":{"avatar_url":"/system/mugshots/0045/2912/Daft_Punk_Wallpaper_by_GoblinFish-crop2.jpg","dob":"Dec 01, 1990","fullname":"alfadesta","username":"alfadesta","gender":"m","account_type":0,"full_avatar_url":"http://l.yimg.com/on/system/mugshots/0045/2912/Daft_Punk_Wallpaper_by_GoblinFish-crop2.jpg","description":"I think, pray and enjoy green tea.","hometown":"jakarta","age":20}}},{"stream":{"permalink":"/s/1fsq3","bump_counter":0,"body":"#AcakLagu [jutah tcain] velvet - memang pantas, poin: 11","photo_url":"","original_place":null,"id":24758587,"type_stream":100,"date":"Wed Aug 03 03:00:12 GMT 2011","privacy_type":0,"original_user":null,"full_photo_url":"","comments_count":2,"comments_counter":2,"original_date":null,"place":{"name":"Pacific Place","city":"Jakarta","address":"Jl. Jend. Sudirman Kav. 52-53, SCBD","parent_name":"Jakarta","lng":106.809811592102,"id":901,"dislikes":18,"phone2":"","phone":"+62-21-5152299","parent_id":2016,"web":"http://www.pacificplace.co.id","place_type":"Shops","lat":-6.22477692788647,"distance":"","likes":90},"user":{"avatar_url":"/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg","dob":"Feb 06, 1997","fullname":"tebaklagu","username":"tebaklagu","gender":"m","account_type":0,"full_avatar_url":"http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg","description":"tebak lagu","hometown":"blog.ardwort.com","age":14}}},{"stream":{"permalink":"/s/1fspH","bump_counter":0,"body":"ganti disini aja deh..(padahal masih sama tempat cuma ada 2 nama :p)","photo_url":"","original_place":null,"id":24758539,"type_stream":100,"date":"Wed Aug 03 02:58:35 GMT 2011","privacy_type":0,"original_user":null,"full_photo_url":"","comments_count":0,"comments_counter":0,"original_date":null,"place":{"name":"Gedung Veteran ","city":"Jakarta","address":" Plaza Semanggi","parent_name":"Jakarta","lng":106.814360618591,"id":234,"dislikes":0,"phone2":null,"phone":"","parent_id":982,"web":"","place_type":"Office","lat":-6.22070266028406,"distance":"","likes":0},"user":{"avatar_url":"/system/mugshots/0539/3026/IMG_2390.JPG","dob":"Jun 03","fullname":"darthrama","username":"darthrama","gender":"m","account_type":0,"full_avatar_url":"http://l.yimg.com/on/system/mugshots/0539/3026/IMG_2390.JPG","description":"A Working Class Graphic designer / Avid Cyclist / Illustrator Wannabe / Sith Lord :p","hometown":"Jakarta","age":""}}},{"stream":{"permalink":"/s/1fsoa","bump_counter":0,"body":"#AcakLagu [asepec orfm eth nlda fo gdol] mala and the bandit - all you can beat, poin: 28","photo_url":"","original_place":null,"id":24758496,"type_stream":100,"date":"Wed Aug 03 02:56:36 GMT 2011","privacy_type":0,"original_user":null,"full_photo_url":"","comments_count":2,"comments_counter":2,"original_date":null,"place":{"name":"Pacific Place","city":"Jakarta","address":"Jl. Jend. Sudirman Kav. 52-53, SCBD","parent_name":"Jakarta","lng":106.809811592102,"id":901,"dislikes":18,"phone2":"","phone":"+62-21-5152299","parent_id":2016,"web":"http://www.pacificplace.co.id","place_type":"Shops","lat":-6.22477692788647,"distance":"","likes":90},"user":{"avatar_url":"/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg","dob":"Feb 06, 1997","fullname":"tebaklagu","username":"tebaklagu","gender":"m","account_type":0,"full_avatar_url":"http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg","description":"tebak lagu","hometown":"blog.ardwort.com","age":14}}},{"stream":{"permalink":"/s/1fsnJ","bump_counter":0,"body":"ISMAYA GROUP","photo_url":"","original_place":null,"id":24758417,"type_stream":100,"date":"Wed Aug 03 02:53:41 GMT 2011","privacy_type":0,"original_user":null,"full_photo_url":"","comments_count":0,"comments_counter":0,"original_date":null,"place":{"name":"Graha BIP","city":"Jakarta","address":"Jl Jend Gatot Subroto 23","parent_name":"Jakarta","lng":106.82032585144,"id":246,"dislikes":1,"phone2":null,"phone":"","parent_id":7036,"web":"","place_type":"Office","lat":-6.22961907917553,"distance":"","likes":22},"user":{"avatar_url":"/system/mugshots/0542/9776/20173_1370520948160_1385830892_31037162_1174494_n.jpg","dob":"Dec 10, 1980","fullname":"cokydenyboy","username":"cokydenyboy","gender":"m","account_type":0,"full_avatar_url":"http://l.yimg.com/on/system/mugshots/0542/9776/20173_1370520948160_1385830892_31037162_1174494_n.jpg","description":"02194770001","hometown":"Jerusalem, Israel","age":30}}},{"stream":{"permalink":"/s/1fsle","bump_counter":0,"body":"#AcakLagu [aiadmdmm] sun, moon & stars project - hariring dua asih, poin: 8","photo_url":"","original_place":null,"id":24758314,"type_stream":100,"date":"Wed Aug 03 02:48:52 GMT 2011","privacy_type":0,"original_user":null,"full_photo_url":"","comments_count":2,"comments_counter":2,"original_date":null,"place":{"name":"Pacific Place","city":"Jakarta","address":"Jl. Jend. Sudirman Kav. 52-53, SCBD","parent_name":"Jakarta","lng":106.809811592102,"id":901,"dislikes":18,"phone2":"","phone":"+62-21-5152299","parent_id":2016,"web":"http://www.pacificplace.co.id","place_type":"Shops","lat":-6.22477692788647,"distance":"","likes":90},"user":{"avatar_url":"/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg","dob":"Feb 06, 1997","fullname":"tebaklagu","username":"tebaklagu","gender":"m","account_type":0,"full_avatar_url":"http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg","description":"tebak lagu","hometown":"blog.ardwort.com","age":14}}},{"stream":{"permalink":"/s/1fslJ","bump_counter":0,"body":"kuping cenat cenut..(lagi)","photo_url":"","original_place":null,"id":24758293,"type_stream":100,"date":"Wed Aug 03 02:48:09 GMT 2011","privacy_type":0,"original_user":null,"full_photo_url":"","comments_count":0,"comments_counter":0,"original_date":null,"place":{"name":"Plaza Semanggi","city":"Jakarta","address":"Jl. Jend. Sudirman Kav. 50 , Semanggi","parent_name":"Jakarta","lng":106.814399719238,"id":982,"dislikes":23,"phone2":"","phone":"","parent_id":1394,"web":"","place_type":"Shops","lat":-6.21979999542236,"distance":"","likes":228},"user":{"avatar_url":"/system/mugshots/0539/3026/IMG_2390.JPG","dob":"Jun 03","fullname":"darthrama","username":"darthrama","gender":"m","account_type":0,"full_avatar_url":"http://l.yimg.com/on/system/mugshots/0539/3026/IMG_2390.JPG","description":"A Working Class Graphic designer / Avid Cyclist / Illustrator Wannabe / Sith Lord :p","hometown":"Jakarta","age":""}}},{"stream":{"permalink":"/s/1fsk9","bump_counter":0,"body":"#AcakLagu [ku aatnkk isab] nidji - single - nidji 2, poin: 14","photo_url":"","original_place":null,"id":24758221,"type_stream":100,"date":"Wed Aug 03 02:45:17 GMT 2011","privacy_type":0,"original_user":null,"full_photo_url":"","comments_count":3,"comments_counter":3,"original_date":null,"place":{"name":"Pacific Place","city":"Jakarta","address":"Jl. Jend. Sudirman Kav. 52-53, SCBD","parent_name":"Jakarta","lng":106.809811592102,"id":901,"dislikes":18,"phone2":"","phone":"+62-21-5152299","parent_id":2016,"web":"http://www.pacificplace.co.id","place_type":"Shops","lat":-6.22477692788647,"distance":"","likes":90},"user":{"avatar_url":"/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg","dob":"Feb 06, 1997","fullname":"tebaklagu","username":"tebaklagu","gender":"m","account_type":0,"full_avatar_url":"http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg","description":"tebak lagu","hometown":"blog.ardwort.com","age":14}}}]):
+  app/models/koprol_bridge.rb:64:in `get_nearby_streams'
+  app/controllers/poi_controller.rb:45:in `action'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.5ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 10:18:20 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed   in 802ms
+
+RuntimeError (--- 
+- stream: 
+    permalink: /s/1fssp
+    bump_counter: 0
+    body: "#AcakLagu [heoyhoa] t - five - back to back, poin: 7"
+    photo_url: ""
+    original_place: 
+    id: 24758759
+    type_stream: 100
+    date: Wed Aug 03 03:07:21 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 0
+    comments_counter: 0
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fsrV
+    bump_counter: 0
+    body: "#AcakLagu [mpngaae mtrlaeabt] kahitna - soulmate, poin: 17"
+    photo_url: ""
+    original_place: 
+    id: 24758677
+    type_stream: 100
+    date: Wed Aug 03 03:03:46 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 4
+    comments_counter: 4
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fsqn
+    bump_counter: 0
+    body: Morning work
+    photo_url: ""
+    original_place: 
+    id: 24758633
+    type_stream: 100
+    date: Wed Aug 03 03:01:44 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 0
+    comments_counter: 0
+    original_date: 
+    place: 
+      address: "JL. Jend. Gatot Subroto Kav.9-11 "
+      city: Jakarta
+      name: Menara Mulia
+      parent_name: Jakarta
+      dislikes: 3
+      id: 894
+      lng: 106.817001342773
+      phone2: 
+      parent_id: 7036
+      phone: ""
+      lat: -6.22431993484497
+      place_type: Office
+      web: ""
+      likes: 20
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0045/2912/Daft_Punk_Wallpaper_by_GoblinFish-crop2.jpg
+      dob: Dec 01, 1990
+      username: alfadesta
+      fullname: alfadesta
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0045/2912/Daft_Punk_Wallpaper_by_GoblinFish-crop2.jpg
+      hometown: jakarta
+      description: I think, pray and enjoy green tea.
+      age: 20
+- stream: 
+    permalink: /s/1fsq3
+    bump_counter: 0
+    body: "#AcakLagu [jutah tcain] velvet - memang pantas, poin: 11"
+    photo_url: ""
+    original_place: 
+    id: 24758587
+    type_stream: 100
+    date: Wed Aug 03 03:00:12 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 2
+    comments_counter: 2
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fspH
+    bump_counter: 0
+    body: ganti disini aja deh..(padahal masih sama tempat cuma ada 2 nama :p)
+    photo_url: ""
+    original_place: 
+    id: 24758539
+    type_stream: 100
+    date: Wed Aug 03 02:58:35 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 0
+    comments_counter: 0
+    original_date: 
+    place: 
+      address: " Plaza Semanggi"
+      city: Jakarta
+      name: "Gedung Veteran "
+      parent_name: Jakarta
+      dislikes: 0
+      id: 234
+      lng: 106.814360618591
+      phone2: 
+      parent_id: 982
+      phone: ""
+      lat: -6.22070266028406
+      place_type: Office
+      web: ""
+      likes: 0
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0539/3026/IMG_2390.JPG
+      dob: Jun 03
+      username: darthrama
+      fullname: darthrama
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0539/3026/IMG_2390.JPG
+      hometown: Jakarta
+      description: A Working Class Graphic designer / Avid Cyclist / Illustrator Wannabe / Sith Lord :p
+      age: ""
+- stream: 
+    permalink: /s/1fsoa
+    bump_counter: 0
+    body: "#AcakLagu [asepec orfm eth nlda fo gdol] mala and the bandit - all you can beat, poin: 28"
+    photo_url: ""
+    original_place: 
+    id: 24758496
+    type_stream: 100
+    date: Wed Aug 03 02:56:36 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 2
+    comments_counter: 2
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fsnJ
+    bump_counter: 0
+    body: ISMAYA GROUP
+    photo_url: ""
+    original_place: 
+    id: 24758417
+    type_stream: 100
+    date: Wed Aug 03 02:53:41 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 0
+    comments_counter: 0
+    original_date: 
+    place: 
+      address: Jl Jend Gatot Subroto 23
+      city: Jakarta
+      name: Graha BIP
+      parent_name: Jakarta
+      dislikes: 1
+      id: 246
+      lng: 106.82032585144
+      phone2: 
+      parent_id: 7036
+      phone: ""
+      lat: -6.22961907917553
+      place_type: Office
+      web: ""
+      likes: 22
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0542/9776/20173_1370520948160_1385830892_31037162_1174494_n.jpg
+      dob: Dec 10, 1980
+      username: cokydenyboy
+      fullname: cokydenyboy
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0542/9776/20173_1370520948160_1385830892_31037162_1174494_n.jpg
+      hometown: Jerusalem, Israel
+      description: 02194770001
+      age: 30
+- stream: 
+    permalink: /s/1fsle
+    bump_counter: 0
+    body: "#AcakLagu [aiadmdmm] sun, moon & stars project - hariring dua asih, poin: 8"
+    photo_url: ""
+    original_place: 
+    id: 24758314
+    type_stream: 100
+    date: Wed Aug 03 02:48:52 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 2
+    comments_counter: 2
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fslJ
+    bump_counter: 0
+    body: kuping cenat cenut..(lagi)
+    photo_url: ""
+    original_place: 
+    id: 24758293
+    type_stream: 100
+    date: Wed Aug 03 02:48:09 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 0
+    comments_counter: 0
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 50 , Semanggi
+      city: Jakarta
+      name: Plaza Semanggi
+      parent_name: Jakarta
+      dislikes: 23
+      id: 982
+      lng: 106.814399719238
+      phone2: ""
+      parent_id: 1394
+      phone: ""
+      lat: -6.21979999542236
+      place_type: Shops
+      web: ""
+      likes: 228
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0539/3026/IMG_2390.JPG
+      dob: Jun 03
+      username: darthrama
+      fullname: darthrama
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0539/3026/IMG_2390.JPG
+      hometown: Jakarta
+      description: A Working Class Graphic designer / Avid Cyclist / Illustrator Wannabe / Sith Lord :p
+      age: ""
+- stream: 
+    permalink: /s/1fsk9
+    bump_counter: 0
+    body: "#AcakLagu [ku aatnkk isab] nidji - single - nidji 2, poin: 14"
+    photo_url: ""
+    original_place: 
+    id: 24758221
+    type_stream: 100
+    date: Wed Aug 03 02:45:17 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    comments_count: 3
+    comments_counter: 3
+    original_date: 
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+):
+  app/models/koprol_bridge.rb:64:in `get_nearby_streams'
+  app/controllers/poi_controller.rb:45:in `action'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.2ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 10:48:21 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed 200 OK in 1122ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 10:58:17 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed 200 OK in 922ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=1" for 127.0.0.1 at Wed Aug 03 11:57:53 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"1", "lat"=>"-6.227593"}
+Completed 200 OK in 669ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 12:52:24 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+  [1m[36mSQL (25.4ms)[0m  [1mSHOW TABLES[0m
+Completed   in 645ms
+
+NoMethodError (undefined method `get_distance' for KoprolBridge(Table doesn't exist):Class):
+  app/models/koprol_bridge.rb:97:in `get_nearby_streams'
+  app/models/koprol_bridge.rb:84:in `each'
+  app/models/koprol_bridge.rb:84:in `get_nearby_streams'
+  app/controllers/poi_controller.rb:45:in `action'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (17.3ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (32.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (86.2ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 12:52:41 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed   in 601ms
+
+TypeError (String can't be coerced into Float):
+  app/models/koprol_bridge.rb:150:in `-'
+  app/models/koprol_bridge.rb:150:in `dlon_rad'
+  app/models/koprol_bridge.rb:117:in `get_distance'
+  app/models/koprol_bridge.rb:97:in `get_nearby_streams'
+  app/models/koprol_bridge.rb:84:in `each'
+  app/models/koprol_bridge.rb:84:in `get_nearby_streams'
+  app/controllers/poi_controller.rb:45:in `action'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (27.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (49.2ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 12:54:36 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed   in 606ms
+
+NoMethodError (undefined method `strip' for 832.724769956925:Float):
+  app/models/koprol_bridge.rb:142:in `change_to_float'
+  app/models/koprol_bridge.rb:97:in `get_nearby_streams'
+  app/models/koprol_bridge.rb:84:in `each'
+  app/models/koprol_bridge.rb:84:in `get_nearby_streams'
+  app/controllers/poi_controller.rb:45:in `action'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.5ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 12:55:12 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed   in 818ms
+
+NoMethodError (undefined method `length' for 832.724769956925:Float):
+  app/models/koprol_bridge.rb:142:in `change_to_float'
+  app/models/koprol_bridge.rb:97:in `get_nearby_streams'
+  app/models/koprol_bridge.rb:84:in `each'
+  app/models/koprol_bridge.rb:84:in `get_nearby_streams'
+  app/controllers/poi_controller.rb:45:in `action'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.8ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.1ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 12:57:26 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed 200 OK in 4024ms (Views: 8.2ms | ActiveRecord: 25.4ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&max_id=999999&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 13:02:00 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"max_id"=>"999999", "lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed 200 OK in 685ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&max_id=999999&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 13:02:51 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"max_id"=>"999999", "lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed 200 OK in 606ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&max_id=999999&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 13:03:52 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"max_id"=>"999999", "lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed   in 839ms
+
+RuntimeError (--- 
+- stream: 
+    permalink: /s/1ftu6
+    bump_counter: 0
+    body: "#AcakLagu [oelv si a ynam esdpdlenor nitgh] groove bandit - two years after, poin: 31"
+    photo_url: ""
+    original_place: 
+    id: 24762682
+    type_stream: 100
+    date: Wed Aug 03 05:59:39 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    original_date: 
+    comments_count: 3
+    comments_counter: 3
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1ftsv
+    bump_counter: 0
+    body: "#AcakLagu [nngii kua mblaiek] garasi - garasi ii, poin: 17"
+    photo_url: ""
+    original_place: 
+    id: 24762609
+    type_stream: 100
+    date: Wed Aug 03 05:56:05 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    original_date: 
+    comments_count: 6
+    comments_counter: 6
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1ftnQ
+    bump_counter: 0
+    body: "#AcakLagu [asngo saogn] ari kencana - unkown album, poin: 11"
+    photo_url: ""
+    original_place: 
+    id: 24762268
+    type_stream: 100
+    date: Wed Aug 03 05:41:39 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    original_date: 
+    comments_count: 18
+    comments_counter: 18
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1ftlu
+    bump_counter: 0
+    body: "#AcakLagu [isdnrei agil] chrisye - sendiri lagi, poin: 12"
+    photo_url: ""
+    original_place: 
+    id: 24762174
+    type_stream: 100
+    date: Wed Aug 03 05:38:04 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    original_date: 
+    comments_count: 2
+    comments_counter: 2
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1ftki
+    bump_counter: 0
+    body: "#AcakLagu [athi utunrl ubnka buerumc] jamal mirdad - antara kau dan aku, poin: 25"
+    photo_url: ""
+    original_place: 
+    id: 24762100
+    type_stream: 100
+    date: Wed Aug 03 05:34:30 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    original_date: 
+    comments_count: 2
+    comments_counter: 2
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1ftiN
+    bump_counter: 0
+    body: "#AcakLagu [baluarbneek] shanty - 9907, poin: 11"
+    photo_url: ""
+    original_place: 
+    id: 24761955
+    type_stream: 100
+    date: Wed Aug 03 05:29:03 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    original_date: 
+    comments_count: 2
+    comments_counter: 2
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fth7
+    bump_counter: 0
+    body: "#AcakLagu [tetngna aitk] pandawa - prasasti hati, poin: 12"
+    photo_url: ""
+    original_place: 
+    id: 24761877
+    type_stream: 100
+    date: Wed Aug 03 05:25:27 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    original_date: 
+    comments_count: 2
+    comments_counter: 2
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1ftfV
+    bump_counter: 0
+    body: "#AcakLagu [aulm] chrisye - sendiri, poin: 4"
+    photo_url: ""
+    original_place: 
+    id: 24761777
+    type_stream: 100
+    date: Wed Aug 03 05:21:53 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    original_date: 
+    comments_count: 4
+    comments_counter: 4
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1fteM
+    bump_counter: 0
+    body: "#AcakLagu [ardtie alhnig aaibgah legnja] margie segers - jazz samba, poin: 28"
+    photo_url: ""
+    original_place: 
+    id: 24761706
+    type_stream: 100
+    date: Wed Aug 03 05:18:42 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    original_date: 
+    comments_count: 3
+    comments_counter: 3
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+- stream: 
+    permalink: /s/1ftdA
+    bump_counter: 0
+    body: "#AcakLagu [nayatert uipkimm] naff - terlahir, poin: 16"
+    photo_url: ""
+    original_place: 
+    id: 24761632
+    type_stream: 100
+    date: Wed Aug 03 05:15:33 GMT 2011
+    privacy_type: 0
+    original_user: 
+    full_photo_url: ""
+    original_date: 
+    comments_count: 3
+    comments_counter: 3
+    place: 
+      address: Jl. Jend. Sudirman Kav. 52-53, SCBD
+      city: Jakarta
+      name: Pacific Place
+      parent_name: Jakarta
+      dislikes: 18
+      id: 901
+      lng: 106.809811592102
+      phone2: ""
+      parent_id: 2016
+      phone: +62-21-5152299
+      lat: -6.22477692788647
+      place_type: Shops
+      web: http://www.pacificplace.co.id
+      likes: 90
+      distance: ""
+    user: 
+      avatar_url: /system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      dob: Feb 06, 1997
+      username: tebaklagu
+      fullname: tebaklagu
+      account_type: 0
+      gender: m
+      full_avatar_url: http://l.yimg.com/on/system/mugshots/0457/4237/2-avatar_tebaklagu_400.jpg
+      hometown: blog.ardwort.com
+      description: tebak lagu
+      age: 14
+):
+  app/models/koprol_bridge.rb:73:in `get_nearby_streams'
+  app/controllers/poi_controller.rb:45:in `action'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.1ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&max_id=999999&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 13:06:09 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"max_id"=>"999999", "lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed   in 664ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/models/koprol_bridge.rb:92:in `get_nearby_streams'
+  app/models/koprol_bridge.rb:85:in `each'
+  app/models/koprol_bridge.rb:85:in `get_nearby_streams'
+  app/controllers/poi_controller.rb:45:in `action'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (139.2ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&max_id=999999&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 13:09:37 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"max_id"=>"999999", "lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed 200 OK in 1369ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&max_id=999999&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 13:12:48 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"max_id"=>"999999", "lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed 200 OK in 1016ms (Views: 138.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.943979&max_id=999999&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 13:18:37 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"max_id"=>"999999", "lon"=>"106.943979", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed 200 OK in 27605ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.943979&max_id=999999&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 16:28:33 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"max_id"=>"999999", "lon"=>"106.943979", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed 200 OK in 2031ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.943979&max_id=999999&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 16:30:46 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"max_id"=>"999999", "lon"=>"106.943979", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed   in 10ms
+
+SyntaxError (/home/agung/NetBeansProjects/layarkoprol/app/models/koprol_bridge.rb:84: syntax error, unexpected tSTRING_BEG, expecting '}'
+                          "activityType" => 27  
+                           ^
+/home/agung/NetBeansProjects/layarkoprol/app/models/koprol_bridge.rb:84: syntax error, unexpected tASSOC, expecting kEND
+                          "activityType" => 27  
+                                           ^):
+  app/controllers/poi_controller.rb:15:in `action'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.9ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.6ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.943979&max_id=999999&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 16:30:55 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"max_id"=>"999999", "lon"=>"106.943979", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed 200 OK in 1397ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.943979&max_id=999999&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 16:48:35 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"max_id"=>"999999", "lon"=>"106.943979", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed 200 OK in 1156ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 17:31:36 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed   in 1620ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]=):
+  app/models/koprol_bridge.rb:83:in `get_nearby_streams'
+  app/models/koprol_bridge.rb:77:in `each'
+  app/models/koprol_bridge.rb:77:in `get_nearby_streams'
+  app/controllers/poi_controller.rb:20:in `action'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.4ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 17:32:24 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed   in 890ms
+
+TypeError (can't convert String into Integer):
+  app/models/koprol_bridge.rb:84:in `[]='
+  app/models/koprol_bridge.rb:84:in `get_nearby_streams'
+  app/models/koprol_bridge.rb:77:in `each'
+  app/models/koprol_bridge.rb:77:in `get_nearby_streams'
+  app/controllers/poi_controller.rb:20:in `action'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.6ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.943979&max_id=999999&RADIOLIST=2" for 127.0.0.1 at Wed Aug 03 17:39:17 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"max_id"=>"999999", "lon"=>"106.943979", "RADIOLIST"=>"2", "lat"=>"-6.227593"}
+Completed 200 OK in 771ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=1" for 127.0.0.1 at Thu Aug 04 00:23:38 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "RADIOLIST"=>"1", "lat"=>"-6.227593"}
+Completed 200 OK in 382ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/poi/action?lat=-6.227593&lon=106.816792&RADIOLIST=1&CUSTOM_LIST=10" for 127.0.0.1 at Thu Aug 04 00:24:53 +0700 2011
+  Processing by PoiController#action as HTML
+  Parameters: {"lon"=>"106.816792", "CUSTOM_LIST"=>"10", "RADIOLIST"=>"1", "lat"=>"-6.227593"}
+Completed 200 OK in 364ms (Views: 5.3ms | ActiveRecord: 0.0ms)
